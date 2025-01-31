@@ -66,10 +66,15 @@
             </p>
 
             <script>
-            function myFunction() {
-                var element = document.getElementById("header-title-logo");
-                element.classList.add("shrink");
-              } 
+           window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                         document.getElementById("header-title-logo").style.visibility = "visible";
+                } else {
+                     document.getElementById("header-title-logo").style.top = "hidden";
+                }
+} 
             </script>
     </body>
 </html> 
