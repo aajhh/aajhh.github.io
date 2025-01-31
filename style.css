@@ -44,7 +44,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100px;
   }
 
   .header {
@@ -53,4 +53,9 @@
     padding: 10px 16px;
     background: #555;
     color: #ffffff;
+  }
+
+  .headernav {
+    color: #ffffff;
+    
   }
