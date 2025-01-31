@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajh home</title>
+     <link rel="icon" type="image/x-icon" href="/general images/favicon.ico">
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+.table-wrapper {
+    border: 1px solid red;
+    width: 50%;
+    height: 75px;
+    margin-left:25%;
+    overflow: auto;
+}
+table {
+    width: 95% !important;
+}
+td {
+    width: 200px;
+    height: 20px;
+    border-bottom: 1px solid #737373;
+}
+td:first-child {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 50px; /* Change this to fit your needs */
+}
+body {
+  padding-bottom: 10px !important;
+}
+    </style>
+  </head>
+  <body>
+  <!--adds crt monitor overlay--> 
+      <div id="overlay"></div>
+   <!--adds crt monitor overlay--> 
+   <!-- border -->
+<div class="border1"></div><div class="border2"></div>
+   <!-- Sidebar -->
+<div class="sidebar">
+  <img src="/general images/ajh3.png" alt="menu logo" width="70%">
+  <hr>
+    <a href="https://aajhh.neocities.org" class="buttonsb1">home</a> <br>
+    <a href="https://aajhh.neocities.org/art" class="buttonsb2">my art</a> <br>
+    <a href="https://aajhh.neocities.org/zines" class="buttonsb1">my zines</a> <br>
+    <a href="https://aajhh.neocities.org/academics" class="buttonsb2">my academic writing</a> <br>
+    <a href="https://aajhh.neocities.org/games" class="buttonsb1">my games</a> <br>
+    <a href="https://aajhh.neocities.org/simscc" class="buttonsb2">my ts4 cc</a> <br><br>
+    <a href="https://ajh-store.square.site/" target="_blank" rel="noopener noreferrer" class="button4">SHOP</a> <br><br>
+    <img src="/general images/pride.gif" alt="pride blinkie" width="35%" class="blink"> <br>
+    <hr><br>
+    <button onclick="crt()" class="button3">Toggle CRT</button>
+</div>
+
+
+<!-- Page Content -->
+<div style="margin-left:15%; margin-top:5%">
+    <h1>home</h1>
+    <hr><br>
+    <p class="desc">hi im andy and this is my website.<br><br>
+                    i am an illustrator, artist, occasional sims 4 mod creator, and even more occasional game dev.<br>
+                     all my sims 4 mods and games will be free forever<br><br>
+                     my art sometimes features nsfw themes, including gore and non-sexual nudity.<br>
+                     explore at your own discretion<br><br>
+                     <span style="font-size:12px">due to the nature of the website as a collection of my work updates will not be regular</span></p>
+  
+
+   <div><img src="general images/sonboy.png" alt="son boy" width="13%"></div>
+   <div style="font-weight: bold;">UPDATES</div>
+   <div class="table-wrapper">
+    <table>
+        <tr>
+            <td><div style="color:#00ffcc; font-size:10px; font-weight:bold;">2024/10/02</div></td><td><div style="color:white; font-size:12px;">new art uploaded [art]</div></td>
+        </tr>
+        <tr>
+            <td><div style="color:#00ffcc; font-size:10px; font-weight:bold;">2024/07/17</div></td><td><div style="color:white; font-size:12px;">updated homepage bio</div></td>
+        </tr>
+        <tr>
+            <td><div style="color:#00ffcc; font-size:10px; font-weight:bold;">2024/06/19</div></td><td><div style="color:white; font-size:12px;">new cc uploaded [ts4 cc]</div></td>
+        </tr>
+        <tr>
+            <td><div style="color:#00ffcc; font-size:10px; font-weight:bold;">2024/06/15</div></td><td><div style="color:white; font-size:12px;">improved mobile layout</div></td>
+        </tr>
+        <tr>
+            <td><div style="color:#00ffcc; font-size:10px; font-weight:bold;">2024/06/14</div></td><td><div style="color:white; font-size:12px;">changed sidebar position to fixed</div></td>
+        <tr>
+            <td><div style="color:#00ffcc; font-size:10px; font-weight:bold;">2024/06/10</div></td><td><div style="color:white; font-size:12px;">changed close button to be visible when positioned on top of artworks [art]</div></td>
+        </tr>
+        <tr>
+            <td><div style="color:#00ffcc; font-size:10px; font-weight:bold;">2024/06/10</div></td><td><div style="color:white; font-size:12px;">info box style tweaks [ts4 cc, games]</div></td>
+        </tr>
+        <tr>
+            <td><div style="color:#00ffcc; font-size:10px; font-weight:bold;">2024/06/09</div></td><td><div style="color:white; font-size:12px;">site content finished</div></td>
+        </tr>
+        <tr>
+            <td><div style="color:#00ffcc; font-size:10px; font-weight:bold;">2024/06/06</div></td><td><div style="color:white; font-size:12px;">site created</div></td>
+        </tr>
+    </table>      
+</div>
+
+
+  </div>
+<script>
+function crt() {
+  var x = document.getElementById("overlay");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+  </body>
+</html>
