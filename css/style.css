@@ -79,4 +79,5 @@ a:link {
 
   #header-logo {
     width: 50%;
+    visibility: hidden;
   }
