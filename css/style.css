@@ -58,18 +58,22 @@
 
 a:link {
     color: #ffffff;
+    text-decoration: none; 
   }
   
   a:visited {
     color: #ffffff;
+    text-decoration: none; 
   }
   
   a:hover {
     color: #333399;
+    text-decoration: none; 
   }
   
   a:active {
     color: #cc3333;
+    text-decoration: none; 
   } 
 
   #header-logo {
