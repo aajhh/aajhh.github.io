@@ -19,8 +19,9 @@
 
   body {
     background-color: #0c0c0e;
+    color: #ffffff; 
   }
-  
+
   /* h1 {
     USING ADOBE ARABESQUE FONT 
     <link rel="stylesheet" href="https://use.typekit.net/pel8ixh.css">
@@ -37,4 +38,11 @@
 
   p {
     font-family: 'Nunito Sans', Arial, Helvetica, sans-serif
+  }
+
+  #largelogo { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
