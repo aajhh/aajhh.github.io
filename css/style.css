@@ -77,11 +77,11 @@ a:link {
     color: #cc3333;
   } 
 
-.header-title-logo img {
+#header-title-logo img {
     visibility: hidden;
     width: 50px;
 }
 
-.shrink .header-title-logo img {
+.shrink #header-title-logo img {
     visibility: visible;
 }
