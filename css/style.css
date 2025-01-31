@@ -48,6 +48,8 @@
     padding: 10px 16px;
     background: #0c0c0e;
     color: #ffffff;
+    border-bottom:#cc3333;
+    border-bottom-style: double;
   }
 
   .headernav {
