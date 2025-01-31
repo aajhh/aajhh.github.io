@@ -94,3 +94,8 @@ a:link {
     width: 75%;
     margin-top: 70px;
   }
+
+  .divider{
+    font-size:larger;
+    color:#cc3333;
+  }
