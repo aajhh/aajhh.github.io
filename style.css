@@ -17,9 +17,9 @@
     src: url(fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
   }
 
-  h1 {
+  /* h1 {
     font-family:  'Fascinate', Arial, Helvetica, sans-serif;
-  }
+  } */
 
   h2 {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
@@ -28,5 +28,3 @@
   p {
     font-family: 'Nunito Sans', Arial, Helvetica, sans-serif
   }
-
-  c
