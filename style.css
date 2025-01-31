@@ -76,3 +76,12 @@ a:link {
   a:active {
     color: #cc3333;
   } 
+
+.header-title-logo img {
+    visibility: hidden;
+    width: 50px;
+}
+
+.shrink .header-title-logo img {
+    visibility: visible;
+}
