@@ -76,3 +76,7 @@ a:link {
   a:active {
     color: #cc3333;
   } 
+
+  #header-logo {
+    width: 10%;
+  }
