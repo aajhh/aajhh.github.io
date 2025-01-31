@@ -110,11 +110,11 @@ a:link {
 
   .dropdown-content {
     display: none;
-    position: relative;
+    position: absolute;
     background-color: #0c0c0e;
     border-style:double;
     border-color:#333399;
-    min-width: 160px;
+    width:100%;
     z-index: 1;
   }
 
