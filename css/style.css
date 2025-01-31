@@ -122,8 +122,17 @@ a:link {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    text-align: center;
   }
 
-  .dropdown-content a:hover {background-color: #ddd;}
-  .dropdown:hover .dropdown-content {display: block;}
-  .dropdown:hover .dropbtn {color: #333399;}
+  .dropdown-content a:hover {
+    color: #333399;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    color: #333399;
+  }
