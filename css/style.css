@@ -86,3 +86,10 @@ a:link {
     width: 50%;
     visibility: hidden;
   }
+
+  .content {
+    text-align: center;
+    color:#ffffff;
+    margin: auto;
+    width: 75%;
+  }
