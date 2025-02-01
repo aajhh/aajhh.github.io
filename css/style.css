@@ -207,3 +207,16 @@ a:link {
     width: 100%;
     padding-bottom: 20px;
   }
+
+  .footerlogo {
+    display:inline;
+    width:5vw;
+  }
+
+  h2.footer {
+    display:inline;
+  }
+
+  p.footer {
+    line-height: 0.7;
+  }
