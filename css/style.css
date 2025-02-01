@@ -144,6 +144,7 @@ a:link {
   .mySlides {
     display: none;
     width: 50%;
+    margin: auto;
   }
 
   .prev, .next {
