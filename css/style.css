@@ -138,6 +138,7 @@ a:link {
 
   .photoReel {
     position: relative;
+    width: 75%;
   }
 
   .slides {
