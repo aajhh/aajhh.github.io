@@ -209,15 +209,16 @@ a:link {
   }
 
   .footerlogo {
-    display:inline;
+    float: left;
     width:5vw;
   }
 
   h2.footer {
+    float: left;
     display:inline;
   }
 
   p.footer {
+    float: left;
     line-height: 0.7;
-    display:inline;
   }
