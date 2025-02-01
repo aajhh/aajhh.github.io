@@ -219,4 +219,5 @@ a:link {
 
   p.footer {
     line-height: 0.7;
+    display:inline;
   }
