@@ -17,15 +17,12 @@
     color: #ffffff; 
   }
 
-  /* h1 {
-    USING ADOBE ARABESQUE FONT 
-    <link rel="stylesheet" href="https://use.typekit.net/pel8ixh.css">
-    <style>
-           h1{ font-family: "hwt-arabesque", sans-serif;
-            font-weight: 400;
-            font-style: normal;}
-        </style>
-    */
+  h1 { 
+      font-family: "hwt-arabesque", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 40px;
+  } 
 
   h2 {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
@@ -278,7 +275,7 @@ a:link {
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 11; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
