@@ -4,11 +4,13 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
     if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-             document.getElementById("header-logo").style.visibility = "visible";
+             document.getElementById("header-logo").src = "/images/general/header logo.png";
+             document.getElementById("logoText").innerHTML = "";
              document.getElementById("myHeader").style.borderBottomStyle = "solid";
              mybutton.style.display = "block";
     } else {
-         document.getElementById("header-logo").style.visibility = "hidden";
+         document.getElementById("header-logo").src = "";
+         document.getElementById("logoText").innerHTML = "home";
          document.getElementById("myHeader").style.borderBottomStyle = "none";
          mybutton.style.display = "none";
     }
