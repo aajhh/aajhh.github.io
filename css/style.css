@@ -305,7 +305,7 @@ a:link {
 }
 
 .aaimages {    
-  line-height: 0;       
+  line-height: 0;     
    -webkit-column-count: 3;    
    -webkit-column-gap: 0px;    
    -moz-column-count: 5;
@@ -320,7 +320,8 @@ a:link {
 .aaimages {    
   display:inline-block;    
   margin-right: auto;    
-  margin-left: auto;  
+  margin-left: auto;
+  width:80%;    
 }
 
 .houseimages {    
@@ -340,6 +341,7 @@ a:link {
   display:inline-block;    
   margin-right: auto;    
   margin-left: auto;  
+  width:80%;  
 }
 
 .miscimages {    
@@ -359,6 +361,7 @@ a:link {
   display:inline-block;    
   margin-right: auto;    
   margin-left: auto;  
+  width:80%;  
 }
 
 .chimages {    
@@ -378,4 +381,5 @@ a:link {
   display:inline-block;    
   margin-right: auto;    
   margin-left: auto;  
+  width:80%;  
 }
