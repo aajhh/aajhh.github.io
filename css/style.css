@@ -398,3 +398,10 @@ a:link {
 #toTop:hover {
   color: #333399; /* Add a dark-grey background on hover */
 }
+
+hr {
+  width: 85%;
+  color: #cc3333;
+  border-top-style: dotted;
+  border-top-width: 15px;
+}
