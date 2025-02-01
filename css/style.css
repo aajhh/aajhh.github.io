@@ -84,6 +84,8 @@ a:link {
     width: 50%;
     visibility: hidden;
     position: absolute;
+    left:0;
+    top:0;
   }
 
   .logocontainer {
