@@ -198,7 +198,7 @@ a:link {
     to {opacity: 1}
   }
 
-  .footer {
+  div.footer {
     color:#ffffff;
     background-color:#0c0c0e;
     border-top:#cc3333;
