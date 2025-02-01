@@ -187,7 +187,7 @@ a:link {
     transition: background-color 0.6s ease;
   }
   
-  .active, .dot:hover {
+  .activedot, .dot:hover {
     background-color: #cc3333;
   }
 
@@ -230,26 +230,26 @@ a:link {
   }
 
   .collapsible {
-    background-color: red;
+    background-color: #cc3333;
     color: black;
     cursor: pointer;
     padding: 18px;
-    width: 75%;
-    border: 2px red;
+    width: 80%;
+    border: 2px #cc3333;
     text-align: center;
     font-weight: bold;
     outline: none;
     font-size: 16px;
-    font-family: "Courier New", "Lucida Console", monospace;
+    font-family: "hwt-arabesque", sans-serif;
   }
   .active, .collapsible:hover {
-    background-color: black;
-    color: red;
-    border: 2px red;
+    background-color: #0c0c0e;
+    color: #cc3333;
+    border: 2px #cc3333;
   }
   .collapsecontent {
     padding: 0 18px;
-    width: 75%;
+    width: 80%;
     display: none;
     overflow: hidden;
     background-color: black;
@@ -323,14 +323,14 @@ a:link {
     position: absolute;
     top: 15%;
     right: 20%;
-    color: red;
+    color: #cc3333;
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
 }
 .close:hover,
 .close:focus {
-    color: #00ffcc;
+    color: #333399;
     text-decoration: none;
     cursor: pointer;
 }
