@@ -44,7 +44,8 @@
 
   .header {
     position: sticky;
-    top: 1vh;
+    top: 0;
+    padding-top: -10px;
     background: #0c0c0e;
     color: #ffffff;
     height: 12vh;
