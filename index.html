@@ -45,20 +45,23 @@
                 <h1>SELECTED WORKS</h1>
                 <p>PHOTO REEL GOES HERE</p>
                 <!--PHOTO REEL-->
-                <div class="photoReel">
-                    <div class="slides">
-                        <img src="/images/art/ch1.png" style="width:30%" alt="⚫︎⚪︎⚪︎⚪︎">
-                    </div>
-                    <div class="slides">
-                        <img src="/images/art/ch15.png" style="width:30%" alt="⚪︎⚫︎⚪︎⚪︎">
-                    </div>
-
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <div class="caption-container">
-                        <p id="caption" style="display:inline"></p>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img src="/images/art/ch1.png" style="width:100%">
                       </div>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                </div>
+                    
+                      <div class="mySlides fade">
+                        <img src="/images/art/ch15.png" style="width:100%">
+                      </div>
+
+                      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
             <!-- END OF CONTENT-->
             </div>
         <!--SCRIPTS-->
