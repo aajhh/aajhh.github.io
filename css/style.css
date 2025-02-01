@@ -247,7 +247,7 @@ a:link {
     color: red;
     border: 2px red;
   }
-  .content {
+  .collapsecontent {
     padding: 0 18px;
     width: 75%;
     display: none;
@@ -257,7 +257,7 @@ a:link {
     text-align: left;
     margin-left:11%
   }
-  
+
   /*image align for expansion*/
 .horizontal-flex-container {
   display: block;
