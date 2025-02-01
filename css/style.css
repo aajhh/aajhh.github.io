@@ -135,11 +135,9 @@ a:link {
     color: #333399;
   }
 
-  * {box-sizing:border-box}
 
   .slideshow-container {
     width: 75%;
-    position: relative;
     margin: auto;
   }
 
@@ -150,7 +148,6 @@ a:link {
 
   .prev, .next {
     cursor: pointer;
-    position: absolute;
     top: 50%;
     width: auto;
     margin-top: -22px;
