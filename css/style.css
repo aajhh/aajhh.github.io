@@ -48,6 +48,7 @@
     height: 12vh;
     background: #0c0c0e;
     color: #ffffff;
+    z-index: 10;
   }
 
   #myHeader {
@@ -189,7 +190,7 @@ a:link {
   .fade {
     animation-name: fade;
     animation-duration: 1.5s;
-    z-index: 0;
+    z-index: 1;
   }
   
   @keyframes fade {
@@ -204,4 +205,5 @@ a:link {
     border-top-style:solid;
     height: 5vh;
     width: 100%;
+    padding-bottom: 20px;
   }
