@@ -136,13 +136,14 @@ a:link {
   }
 
   .slideshow-container {
-    max-width: 1000px;
+    width: 75%;
     position: relative;
     margin: auto;
   }
 
   .mySlides {
     display: none;
+    width: 50%;
   }
 
   .prev, .next {
