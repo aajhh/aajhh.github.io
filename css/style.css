@@ -303,19 +303,21 @@ a:link {
     cursor: pointer;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create two equal columns that sits next to each other */
-.column {
-  flex: 33%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
+.aaimages {    
+  line-height: 0;       
+   -webkit-column-count: 5;    
+   -webkit-column-gap: 0px;    
+   -moz-column-count: 5;
+   -moz-column-gap: 0px;
+    column-count: 5;    
+    column-gap: 0px;    
+}  
+.aaimages img {    
+  width: 100% !important;    
+  height: auto !important;  
+}  
+.aaimages {    
+  display:inline-block;    
+  margin-right: auto;    
+  margin-left: auto;  
 }
