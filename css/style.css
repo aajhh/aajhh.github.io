@@ -83,18 +83,6 @@ a:link {
   #header-logo {
     width: 50%;
     visibility: hidden;
-    position: absolute;
-    top:0vh;
-  }
-
-  .logocontainer {
-    position: relative;
-    width:100%;
-    height:100%;
-  }
-
-  #logotext {
-    visibility: visible;
   }
 
   .content {
