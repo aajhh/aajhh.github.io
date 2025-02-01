@@ -47,7 +47,7 @@
     top: 0;
     background: #0c0c0e;
     color: #ffffff;
-    height: auto;
+    height: min-content;
   }
 
   #myHeader {
@@ -60,7 +60,7 @@
     width: 100%;
     text-align: center;
     table-layout: fixed;
-    height: auto;
+    height: min-content;
   }
 
 a:link {
