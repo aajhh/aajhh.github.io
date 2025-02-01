@@ -226,35 +226,6 @@ a:link {
     float:left;
   }
 
-  .collapsible {
-    background-color: #cc3333;
-    color: black;
-    cursor: pointer;
-    padding: 18px;
-    width: 80%;
-    border: 2px #cc3333;
-    text-align: center;
-    font-weight: bold;
-    outline: none;
-    font-size: 20px;
-    font-family: "hwt-arabesque", sans-serif;
-  }
-  .active, .collapsible:hover {
-    background-color: #0B0A0D;
-    color: #cc3333;
-    border: 2px #cc3333;
-  }
-  .collapsecontent {
-    padding: 0 18px;
-    width: 80%;
-    display: none;
-    overflow: hidden;
-    background-color: #0B0A0D;
-    color: white;
-    text-align: left;
-    margin-left:11%
-  }
-
   /*image align for expansion*/
 .horizontal-flex-container {
   display: block;
