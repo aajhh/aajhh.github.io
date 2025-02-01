@@ -195,3 +195,12 @@ a:link {
     from {opacity: .4}
     to {opacity: 1}
   }
+
+  .footer {
+    color:#ffffff;
+    background-color:#0c0c0e;
+    border-top:#cc3333;
+    border-top-width: 4px;
+    height: 5vh;
+    width: 100%;
+  }
