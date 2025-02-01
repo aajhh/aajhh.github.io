@@ -1,16 +1,16 @@
 let mybutton = document.getElementById("toTop");
+var initialSrc = "/images/general/home button.png";
+var scrollSrc = "/images/general/header logo.png";
 
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
     if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-             document.getElementById("header-logo").src = "/images/general/header logo.png";
-             document.getElementById("logoText").innerHTML = "";
+             document.getElementById("header-logo").src = scrollSrc;
              document.getElementById("myHeader").style.borderBottomStyle = "solid";
              mybutton.style.display = "block";
     } else {
-         document.getElementById("header-logo").src = "";
-         document.getElementById("logoText").innerHTML = "home";
+         document.getElementById("header-logo").src = initialSrc;
          document.getElementById("myHeader").style.borderBottomStyle = "none";
          mybutton.style.display = "none";
     }
