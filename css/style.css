@@ -135,6 +135,8 @@ a:link {
     color: #333399;
   }
 
+  * {box-sizing:border-box}
+
   .slideshow-container {
     width: 75%;
     position: relative;
