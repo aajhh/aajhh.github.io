@@ -214,12 +214,10 @@ a:link {
     margin: 5px;
   }
 
-  h2.footer {
-    float: left;
-    display:inline;
+  p.footer {
+    line-height: 0.7;
   }
 
-  p.footer {
-    float: left;
-    line-height: 0.7;
+  .footertext {
+    float:left;
   }
