@@ -106,7 +106,6 @@ a:link {
 
   .dropdown {
     position: relative;
-    width: max-content;
   }
 
   .dropdown-content {
