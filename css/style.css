@@ -272,6 +272,7 @@ a:link {
     padding: 10px 0px;
     padding-bottom: 50px;
     height: 150px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 .modal-content, #caption {    
     -webkit-animation-name: zoom;
@@ -305,7 +306,7 @@ a:link {
 
 .aaimages {    
   line-height: 0;       
-   -webkit-column-count: 5;    
+   -webkit-column-count: 3;    
    -webkit-column-gap: 0px;    
    -moz-column-count: 5;
    -moz-column-gap: 0px;
@@ -317,6 +318,63 @@ a:link {
   height: auto !important;  
 }  
 .aaimages {    
+  display:inline-block;    
+  margin-right: auto;    
+  margin-left: auto;  
+}
+
+.houseimages {    
+  line-height: 0;       
+   -webkit-column-count: 5;    
+   -webkit-column-gap: 0px;    
+   -moz-column-count: 5;
+   -moz-column-gap: 0px;
+    column-count: 5;    
+    column-gap: 0px;    
+}  
+.houseimages img {    
+  width: 100% !important;    
+  height: auto !important;  
+}  
+.houseimages {    
+  display:inline-block;    
+  margin-right: auto;    
+  margin-left: auto;  
+}
+
+.miscimages {    
+  line-height: 0;       
+   -webkit-column-count: 4;    
+   -webkit-column-gap: 0px;    
+   -moz-column-count: 5;
+   -moz-column-gap: 0px;
+    column-count: 5;    
+    column-gap: 0px;    
+}  
+.miscimages img {    
+  width: 100% !important;    
+  height: auto !important;  
+}  
+.miscimages {    
+  display:inline-block;    
+  margin-right: auto;    
+  margin-left: auto;  
+}
+
+.chimages {    
+  line-height: 0;       
+   -webkit-column-count: 5;    
+   -webkit-column-gap: 0px;    
+   -moz-column-count: 5;
+   -moz-column-gap: 0px;
+    column-count: 5;    
+    column-gap: 0px;    
+}  
+.chimages img {    
+  width: 100% !important;    
+  height: auto !important;  
+}  
+.chimages {    
   display:inline-block;    
   margin-right: auto;    
   margin-left: auto;  
