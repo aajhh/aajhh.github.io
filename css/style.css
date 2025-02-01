@@ -200,7 +200,7 @@ a:link {
     color:#ffffff;
     background-color:#0c0c0e;
     border-top:#cc3333;
-    border-top-width: 4px;
+    border-top-style:solid;
     height: 5vh;
     width: 100%;
   }
