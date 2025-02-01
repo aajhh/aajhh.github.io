@@ -211,6 +211,7 @@ a:link {
   .footerlogo {
     float: left;
     width:5vw;
+    margin: 5px;
   }
 
   h2.footer {
