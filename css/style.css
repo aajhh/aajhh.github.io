@@ -44,7 +44,8 @@
 
   .header {
     position: sticky;
-    top: 0;
+    top: -5vh;
+    height: 12vh;
     background: #0c0c0e;
     color: #ffffff;
   }
@@ -144,7 +145,7 @@ a:link {
     display: none;
     width: 50%;
     margin: auto;
-    padding: 50px;
+    padding: 10px;
   }
 
   .prev, .next {
