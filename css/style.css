@@ -403,5 +403,8 @@ hr {
   width: 85%;
   color: #cc3333;
   border-top-style: dotted;
-  border-top-width: 15px;
+  border-top-width: 12px;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
 }
