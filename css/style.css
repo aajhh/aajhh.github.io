@@ -210,11 +210,11 @@ a:link {
 
   .footerlogo {
     float: left;
-    width:7%;
-    margin: 5px;
+    width:5%;
+    margin: 10px;
     border-style: solid;
     border-width: 2px;
-    border-color:#cc3333;
+    border-color:#333399;
   }
 
   p.footer {
