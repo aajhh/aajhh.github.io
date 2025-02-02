@@ -409,7 +409,7 @@ hr {
   border-bottom-style: none;
 }
 
-.row{
+.filterrow{
   display: flex;
   flex-wrap: wrap;
 }
