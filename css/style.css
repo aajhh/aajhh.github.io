@@ -413,12 +413,12 @@ hr {
   width: 100%;
   display: block;
   min-height: 100vh;
-  background-color: #2a2932;
+  background-color: #0B0A0D;
   padding: 100px 0;
 }
 
 .filtergallerycontainer{
-   max-width: 1170px;
+   max-width: 80%;
    margin:auto;
 }
 
