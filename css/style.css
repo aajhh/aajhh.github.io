@@ -568,11 +568,11 @@ hr {
   text-align: center;
 }
 
-.container:hover .gameimage {
+.gameicon:hover .gameimage {
   opacity: 0.3;
 }
 
-.container:hover .gamehover {
+.gameicon:hover .gamehover {
   opacity: 1;
 }
 
@@ -587,11 +587,12 @@ hr {
 }
 
 .gamegridcolumn {
-  flex: 50%;
+  flex: 33%;
   padding: 0 4px;
 }
 
 .gamegridcolumn img{
   margin-top: 8px;
   vertical-align: middle;
+  width: 50%;
 }
