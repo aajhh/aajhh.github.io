@@ -517,19 +517,19 @@ border: 3px solid #d4dad9;
   transform: rotateY(180deg);
 }
 
-.button a:link {
-  background-color:#ffffff;
-  color:#333399;
-  font-family: "hwt-arabesque", sans-serif;
+.button {
+  background-color:#ffffff !important;
+  color:#333399 !important;
+  font-family: "hwt-arabesque", sans-serif !important;
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;
+  font-size: 20px !important;
   border-style: solid;
   border-width: 2px;
   border-color:#333399;
   width: 75%;
 }
 
-.button a:hover  {
-  color:#cc3333;
+.button:hover  {
+  color:#cc3333 !important;
 }
