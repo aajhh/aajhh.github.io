@@ -60,7 +60,7 @@
     table-layout: fixed;
   }
 
-a:link {
+  a:link {
     color: #ffffff;
     text-decoration: none; 
   }
@@ -517,7 +517,7 @@ border: 3px solid #d4dad9;
   transform: rotateY(180deg);
 }
 
-.button {
+.button a:link {
   background-color:#ffffff;
   color:#333399;
   font-family: "hwt-arabesque", sans-serif;
@@ -530,6 +530,6 @@ border: 3px solid #d4dad9;
   width: 75%;
 }
 
-.button.hover {
+.button a:hover  {
   color:#cc3333;
 }
