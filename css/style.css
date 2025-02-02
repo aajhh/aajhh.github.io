@@ -515,12 +515,6 @@ border: 3px solid #d4dad9;
   background-color: #333399;
   color: white;
   transform: rotateY(180deg);
-  top: 50%;
-  transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
 }
 
 button {
