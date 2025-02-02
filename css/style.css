@@ -597,7 +597,9 @@ hr {
 .gamecolumn {
   float: left;
   width: 33.33%;
-  padding: 2px;
+  border-style: solid;
+  border-width: 2px;
+  border-color:#0B0A0D;
 }
 
 .gamerow::after {
