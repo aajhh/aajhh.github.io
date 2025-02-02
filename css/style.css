@@ -576,10 +576,6 @@ hr {
   opacity: 1;
 }
 
-.gametext {
-  padding: 16px 32px;
-}
-
 .gamegridrow {
   display: flex;
   flex-wrap: wrap;
@@ -594,7 +590,6 @@ hr {
 .gamegridcolumn img{
   margin-top: 8px;
   vertical-align: middle;
-  width: 33%;
 }
 
 .gamebutton {
@@ -609,4 +604,9 @@ hr {
   border-color:#cc3333;
   padding: 5px;
   border-radius: 15px;
+}
+
+.gamebutton:hover  {
+  color:#ffffff !important;
+  background-color:#333399 !important;
 }
