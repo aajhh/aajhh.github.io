@@ -409,6 +409,11 @@ hr {
   border-bottom-style: none;
 }
 
+.filterrow{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .filtergallery{
   width: 100%;
   display: block;
