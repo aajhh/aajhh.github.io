@@ -430,32 +430,20 @@ hr {
 }
 .filtergallery .gallery-filters .filter-item{
   color: #ffffff;
-  font-size: 17px;
-  border: 2px solid white;
-  text-transform: uppercase;
   display: inline-block;
-  border-radius: 20px;
-  margin-right: 8px;
   cursor: pointer;
-  padding: 8px 20px 8px 20px;
   line-height: 1.2;
   transition: all 0.3s ease;
 }
 
 .filtergallery .gallery-filters .filter-item.active{
-  color: white;
-  border-color : #16b5ef;
-  background: #16b5ef;
+  color: #cc3333;
 }
 
 .filtergallery .gallery-item{
   width: calc(100% / 3);
   padding: 15px;
 
-}
-.filtergallery .gallery-item-inner img{
-  width: 100%;
-border: 3px solid #d4dad9;
 }
 
 .filtergallery .gallery-item.show{
@@ -507,7 +495,7 @@ border: 3px solid #d4dad9;
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  color: black;
+  color: white;
 }
 
 /* Style the back side */
@@ -515,6 +503,7 @@ border: 3px solid #d4dad9;
   background-color: #333399;
   color: white;
   transform: rotateY(180deg);
+  border-radius:10px;
 }
 
 .button {
@@ -538,5 +527,5 @@ border: 3px solid #d4dad9;
 }
 
 .break {
-  line-height: 5px;
+  line-height: 0.7;
 }
