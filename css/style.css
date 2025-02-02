@@ -576,22 +576,6 @@ hr {
   opacity: 1;
 }
 
-.gamegridrow {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-.gamegridcolumn {
-  flex: 33%;
-  padding: 0 4px;
-}
-
-.gamegridcolumn img{
-  margin-top: 8px;
-  vertical-align: middle;
-}
-
 .gamebutton {
   background-color:#ffffff !important;
   color:#333399 !important;
