@@ -593,3 +593,15 @@ hr {
   color:#ffffff !important;
   background-color:#333399 !important;
 }
+
+.gamecolumn {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.gamerow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
