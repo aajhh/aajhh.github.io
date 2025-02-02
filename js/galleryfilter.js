@@ -1,53 +1,30 @@
-var $grid = $('.grid').isotope({
-    itemSelector: '.element-item',
-    layoutMode: 'fitRows',
-    getSortData: {
-      name: '.name',
-      symbol: '.symbol',
-      number: '.number parseInt',
-      category: '[data-category]',
-      weight: function( itemElem ) {
-        var weight = $( itemElem ).find('.weight').text();
-        return parseFloat( weight.replace( /[\(\)]/g, '') );
-      }
+const filterContainer = document.querySelector(".gallery-filters");
+ const galleryItems = document.querySelectorAll(".gallery-item");
+
+ filterContainer.addEventListener("click", (event) =>{
+    if(event.target.classList.contains("filter-item")){
+ 
+      // deactivate existing active 'filter-item'
+     filterContainer.querySelector(".active").classList.remove("active");
+ 
+      // activate new 'filter-item'
+     event.target.classList.add("active");
+ 
+     const filterValue = event.target.getAttribute("data-filter");
+ 
+     galleryItems.forEach((item) =>{
+ 
+        if(item.classList.contains(filterValue) || filterValue === 'all'){
+         item.classList.remove("hide");
+          item.classList.add("show");
+        }
+ 
+        else{
+         item.classList.remove("show");
+         item.classList.add("hide");
+        }
+ 
+      });
     }
   });
-  
-  // filter functions
-  var filterFns = {
-    // show if number is greater than 50
-    numberGreaterThan50: function() {
-      var number = $(this).find('.number').text();
-      return parseInt( number, 10 ) > 50;
-    },
-    // show if name ends with -ium
-    ium: function() {
-      var name = $(this).find('.name').text();
-      return name.match( /ium$/ );
-    }
-  };
-  
-  // bind filter button click
-  $('#filters').on( 'click', 'button', function() {
-    var filterValue = $( this ).attr('data-filter');
-    // use filterFn if matches value
-    filterValue = filterFns[ filterValue ] || filterValue;
-    $grid.isotope({ filter: filterValue });
-  });
-  
-  // bind sort button click
-  $('#sorts').on( 'click', 'button', function() {
-    var sortByValue = $(this).attr('data-sort-by');
-    $grid.isotope({ sortBy: sortByValue });
-  });
-  
-  // change is-checked class on buttons
-  $('.button-group').each( function( i, buttonGroup ) {
-    var $buttonGroup = $( buttonGroup );
-    $buttonGroup.on( 'click', 'button', function() {
-      $buttonGroup.find('.is-checked').removeClass('is-checked');
-      $( this ).addClass('is-checked');
-    });
-  });
-    
-  
+ 
