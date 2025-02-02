@@ -523,11 +523,14 @@ button {
   font-family: "hwt-arabesque", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 40px;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color:#333399;
+  width: 75%;
 }
 
 button.hover {
-  background-color:#333399;
-  color:#ffffff;
+  color:#cc3333;
 }
 
