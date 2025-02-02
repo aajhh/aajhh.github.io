@@ -596,7 +596,8 @@ hr {
 
 .gamecolumn {
   float: left;
-  width: 25%;
+  display: inline;
+  width: 33.33%;
   padding: 5px;
 }
 
