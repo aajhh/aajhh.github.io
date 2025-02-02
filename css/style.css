@@ -582,11 +582,12 @@ hr {
   font-weight: 400;
   font-style: normal;
   font-size: 16px !important;
-  outline-style: solid;
-  outline-width: 2px;
-  outline-color:#cc3333;
+  border-style: solid;
+  border-width: 2px;
+  border-color:#cc3333;
   padding: 5px;
   border-radius: 15px;
+  display: inline-block;
 }
 
 .gamebutton:hover  {
