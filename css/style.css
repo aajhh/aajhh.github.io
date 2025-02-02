@@ -419,7 +419,6 @@ hr {
   display: block;
   min-height: 100vh;
   background-color: #0B0A0D;
-  padding: 100px 0;
 }
 
 .filtergallerycontainer{
@@ -436,6 +435,7 @@ hr {
   font-size: 20px;
   font-weight: bold;
 }
+
 .filtergallery .gallery-filters .filter-item{
   color: #ffffff;
   display: inline-block;
@@ -446,6 +446,10 @@ hr {
 
 .filtergallery .gallery-filters .filter-item.active{
   color: #cc3333;
+}
+
+.filtergallery .gallery-filters .filter-item:hover{
+  color: #333399;
 }
 
 .filtergallery .gallery-item{
