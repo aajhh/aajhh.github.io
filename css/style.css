@@ -687,4 +687,7 @@ ul {
     .headernav h2 {
       font-size: 16px;
     }
+    .headerlogo {
+      width: 100%;
+    }
   }
