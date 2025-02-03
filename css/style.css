@@ -684,4 +684,5 @@ div.gameprevimg img {
 
 .gameprevimggallery {
   width:100%;
+  height: auto;
 }
