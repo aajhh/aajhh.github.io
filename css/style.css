@@ -110,7 +110,7 @@
     position: absolute;
     background: rgba(12, 12, 14, 0.5);
     width: 100%;
-    z-index: 11;
+    z-index: 9;
   }
 
   .dropdown-content a {
