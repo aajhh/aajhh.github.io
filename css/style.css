@@ -658,10 +658,10 @@ ul {
 
 .warning {
   list-style: none;
-  padding: 0px;
+  padding-left: 0;
 }
 
 .warning li:before {
-  content: '\2713';
+  content: '⚠';
   margin: 0 1em;    /* any design */
 }
