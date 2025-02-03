@@ -636,6 +636,8 @@ hr {
   padding: 15px;
   border-radius: 15px;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .playbutton:hover  {
