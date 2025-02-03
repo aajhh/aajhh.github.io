@@ -655,3 +655,7 @@ ul {
   font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
   padding-left: 0;
 }
+
+.warning li:before {
+  content: "\2605";
+}
