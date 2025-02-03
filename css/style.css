@@ -135,6 +135,7 @@
 
   .dropdown:hover .dropbtn2 {
     color: #cc3333;
+    cursor: default;
   }
 
   .slideshow-container {
