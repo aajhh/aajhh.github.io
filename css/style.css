@@ -690,4 +690,8 @@ ul {
     .headerlogo {
       width: 100%;
     }
+    .header {
+      top: 0;
+      height: 10vh;
+    }
   }
