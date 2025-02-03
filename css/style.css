@@ -677,7 +677,7 @@ div.gameprevimg:hover {
     margin: 0 auto;
   }
   
-  #gameprevimggallery img {
+  .gameprevimggallery img {
     float: left;
     border: 2px solid #ffffff;
     width: 45%;
