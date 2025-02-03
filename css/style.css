@@ -666,23 +666,20 @@ ul {
   /* margin: 0 1em;     any design */
 }
 
-div.gameprevimg {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
 
 div.gameprevimg:hover {
-  border: 1px solid #777;
-}
-
-div.gameprevimg img {
-  width: 100%;
-  height: auto;
+  border: 1px solid #cc3333;
 }
 
 .gameprevimggallery {
-  width:100%;
-  height: auto;
-}
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+  }
+  
+  #gameprevimggallery img {
+    float: left;
+    border: 2px solid #ffffff;
+    width: 45%;
+    margin: 1.66%;
+  }
