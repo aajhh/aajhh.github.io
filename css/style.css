@@ -688,7 +688,8 @@ ul {
     border-style: double;
     border-width: 15px;
     border-radius: 10px;
-    border-color:#cc3333
+    border-color:#cc3333;
+    visibility: hidden;
   }
 
   @media screen and (max-width: 800px) {
@@ -701,5 +702,8 @@ ul {
     .header {
       top: 0;
       height: 10vh;
+    }
+    .notice {
+      visibility: visible;
     }
   }
