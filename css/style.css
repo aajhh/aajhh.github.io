@@ -635,9 +635,14 @@ hr {
   width: 75%;
   padding: 15px;
   border-radius: 15px;
+  display: block;
 }
 
 .playbutton:hover  {
   color:#333399 !important;
   background-color:#0B0A0D !important;
+}
+
+.playbuttoncontainer {
+  width:100%;
 }
