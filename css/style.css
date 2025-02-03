@@ -636,14 +636,12 @@ hr {
   border-style: solid;
   border-width: 5px;
   border-color:#cc3333;
-  width: 75%;
-  height: 5vh;
   padding: 15px;
   border-radius: 15px;
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
-  width: 20%;
+  width: 15%;
 }
 
 .playbutton:hover  {
