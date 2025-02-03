@@ -700,7 +700,7 @@ ul {
       width: 100%;
     }
     .header {
-      top: 0;
+      top: -1px;
       height: 10vh;
     }
     .notice {
