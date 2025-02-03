@@ -618,7 +618,7 @@ hr {
   margin-right: auto;
   width: 50%;
   border-style: solid;
-  border-width: 2px;
+  border-width: 5px;
   border-color:#0B0A0D;
   border-radius: 10px;
   outline-style: solid;
@@ -647,4 +647,10 @@ hr {
 .playbutton:hover  {
   color:#0B0A0D !important;
   background-color:#333399 !important;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif
 }
