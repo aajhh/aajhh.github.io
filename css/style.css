@@ -666,11 +666,6 @@ ul {
   /* margin: 0 1em;     any design */
 }
 
-
-div.gameprevimg:hover {
-  border: 1px solid #cc3333;
-}
-
 .gameprevimggallery {
     width: 800px;
     height: 800px;
@@ -679,7 +674,11 @@ div.gameprevimg:hover {
   
   .gameprevimggallery img {
     float: left;
-    border: 2px solid #ffffff;
+    border: 2px solid #333399;
     width: 45%;
     margin: 1.66%;
+  }
+
+  .gameprevimggallery img:hover {
+    border: 2px solid #cc3333;
   }
