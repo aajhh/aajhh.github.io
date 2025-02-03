@@ -667,8 +667,8 @@ ul {
 }
 
 .gameprevimggallery {
-    width: 800px;
-    height: 800px;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
   }
   
