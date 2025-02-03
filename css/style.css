@@ -663,5 +663,21 @@ ul {
 
 .warning li:before {
   content: '⚠';
-  margin: 0 1em;    /* any design */
+  /* margin: 0 1em;     any design */
+}
+
+div.gameprevimg {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gameprevimg:hover {
+  border: 1px solid #777;
+}
+
+div.gameprevimg img {
+  width: 100%;
+  height: auto;
 }
