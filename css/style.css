@@ -656,6 +656,13 @@ ul {
   padding-left: 0;
 }
 
-.warning li:before {
-  content: "\2605";
+.warning ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.warning ul li:before
+{
+  content: '\2713';
+  margin: 0 1em;    /* any design */
 }
