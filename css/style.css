@@ -224,10 +224,12 @@
 
   .footertext {
     float:left;
+    margin-left: 10%;
   }
 
   .footerlinks {
     float: right;
+    margin-right: 10%;
   }
 
   /*image align for expansion*/
