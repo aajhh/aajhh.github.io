@@ -84,7 +84,7 @@
     width: 50%;
   }
 
-  .content, .contentcc {
+  .content {
     text-align: center;
     color:#ffffff;
     margin: auto;
@@ -758,7 +758,6 @@ ul {
     }
     .filtergallery .gallery-item{
       width: 50%;
-      padding: 0px;
     }
     .artcaption {
       font-size: 12px !important; 
