@@ -704,7 +704,11 @@ ul {
     font-size: 20px;
   }
 
-  input[type=submit] {
+  form {
+    width: 75%;
+  }
+
+  form input[type=submit] {
     background-color:#0B0A0D !important;
     color:#333399 !important;
     font-family: "hwt-arabesque", sans-serif !important;
@@ -722,7 +726,7 @@ ul {
     width: 15%;
   }
 
-  input[type=submit]:hover  {
+  form input[type=submit]:hover  {
     color:#0B0A0D !important;
     background-color:#333399 !important;
   }
@@ -732,16 +736,16 @@ ul {
     font-size: 20px;
   }
 
-  input[type=text] {
+ form input[type=text] {
     width: 25%;
   }
 
-  input[type=email] {
+  form input[type=email] {
     width: 25%;
   }
 
   form textarea {
-    height: 25%;
+    height: 100px;
   }
 
   @media screen and (max-width: 800px) {
