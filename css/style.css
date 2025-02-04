@@ -854,5 +854,8 @@ ul {
       width: 100%;
       height: auto;
     }
+    .mySlides {
+      margin: auto;
+    }
   }
 
