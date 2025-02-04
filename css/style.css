@@ -744,11 +744,9 @@ ul {
       font-size: 16px;
       display: block; 
       width: auto;
-      padding-bottom: 5px;
-    }
-    .gallery-item{
-      width: auto;
-      height: auto;
+      outline-style: solid;
+      outline-width: 5px;
+      outline-color: #0B0A0D;
     }
     .gamecolumn {
       float: left;
@@ -756,3 +754,19 @@ ul {
       padding:1%;
     }
   }
+
+  @media(max-width: 491px){
+    .gallery .gallery-item{
+        width: 50%;
+    }
+  }
+
+  @media(max-width: 667px){
+    .gallery .gallery-item{
+        width: 100%;
+    }
+    .gallery .gallery-filter .filter-item{
+        margin-bottom: 10px;
+    }
+  }
+
