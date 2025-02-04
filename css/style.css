@@ -744,9 +744,7 @@ ul {
       font-size: 16px;
       display: block; 
       width: auto;
-      outline-style: solid;
-      outline-width: 5px;
-      outline-color: #0B0A0D;
+      margin: 5px;
     }
     .gamecolumn {
       float: left;
@@ -789,6 +787,10 @@ ul {
     }
     .artjumpto {
       font-size: 12px !important;
+    }
+    .gameheader {
+      width: 100%;
+      height: auto;
     }
   }
 
