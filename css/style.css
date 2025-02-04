@@ -740,8 +740,8 @@ ul {
     width: 25%;
   }
 
-  input[type=message] {
-    width: 25%;
+  form textarea {
+    height: 25%;
   }
 
   @media screen and (max-width: 800px) {
