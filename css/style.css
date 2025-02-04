@@ -746,7 +746,7 @@ ul {
       width: auto;
     }
     .flip-card-font .flip-card-back {
-      width: 33%;
-      height: 33%;
+      width: calc(100% / 3);
+      height: auto;
     }
   }
