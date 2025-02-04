@@ -692,6 +692,10 @@ ul {
     visibility: hidden;
   }
 
+  .artjumpto h2{
+    font-size: 20px;
+  }
+
   @media screen and (max-width: 800px) {
     .headernav h2 {
       font-size: 16px;
@@ -785,7 +789,7 @@ ul {
     .content {
       width: 90%;
     }
-    .artjumpto {
+    .artjumpto h2 {
       font-size: 12px !important;
     }
     .gameheader {
