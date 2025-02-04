@@ -722,4 +722,16 @@ ul {
       background-color: black;
       line-height: 80%;
     }
+    h1 {
+      font-size: 25px;
+    }
+    .footer h2 {
+      font-size: 16px;
+    }
+    .footer p {
+      font-size: 10px;
+    }
+    .mySlides {
+      width: 90%;
+    }
   }
