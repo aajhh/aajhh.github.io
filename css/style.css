@@ -781,9 +781,9 @@ ul {
 
   .siteicon img {
     border-style: solid;
-    border-width: 2px;
+    border-width: 5px;
     border-color:#cc3333;
-    border-radius: 10%;
+    border-radius: 25px;
   }
 
   @media screen and (max-width: 800px) {
