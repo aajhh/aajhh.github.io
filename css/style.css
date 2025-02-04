@@ -758,6 +758,7 @@ ul {
     }
     .filtergallery .gallery-item{
       width: 50%;
+      margin: auto;
     }
     .artcaption {
       font-size: 12px !important; 
