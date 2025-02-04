@@ -35,6 +35,11 @@
             </div> 
             <!-- PAGE CONTENT-->
             <div class="content">
+              <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                 <div id="caption"></div>
+              </div>
               <button onclick="topFunction()" id="toTop" title="Go to top">⮝</button> 
               <h2 class="notice">mobile responsiveness currently in progress. this site may not work fully on mobile phones.</h2>
                 <h1 style="display:inline; font-size:25px;">aajhh</h1><p style="display:inline"> is a multidisciplinary artist from the north of England.</p>
@@ -48,23 +53,23 @@
                 <h1>SELECTED WORKS</h1>
                 <!--PHOTO REEL-->
                 <div class="slideshow-container">
-                    <div class="mySlides fade">
+                    <div class="mySlides fade myImg">
                         <img src="/images/art/ch1.png" style="width:90%">
                       </div>
                     
-                      <div class="mySlides fade">
+                      <div class="mySlides fade myImg">
                         <img src="/images/art/ch4.png" style="width: 90%">
                       </div>
 
-                      <div class="mySlides fade">
+                      <div class="mySlides fade myImg">
                         <img src="/images/art/msc11.png" style="width:100%">
                       </div>
 
-                      <div class="mySlides fade">
+                      <div class="mySlides fade myImg">
                         <img src="/images/art/h1.png" style="width:100%">
                       </div>
 
-                      <div class="mySlides fade">
+                      <div class="mySlides fade myImg">
                         <img src="/images/art/h7.png" style="width:75%">
                       </div>
                     </div>
@@ -99,6 +104,7 @@
                 </div>
              </div>
         <!--SCRIPTS-->
+        <script src="/js/modal.js"></script> 
         <script src="/js/headerscroll.js"></script> 
         <script src="/js/photoreel.js"></script> 
     </body>
