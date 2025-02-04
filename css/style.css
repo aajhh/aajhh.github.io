@@ -743,8 +743,9 @@ ul {
     .playbutton {
       font-size: 16px;
       display: block; 
+      width: auto;
     }
-    .flip-card {
+    .flip-card-font .flip-card-back {
       width: 33%;
       height: 33%;
     }
