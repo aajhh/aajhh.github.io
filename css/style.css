@@ -706,4 +706,18 @@ ul {
     .notice {
       visibility: visible;
     }
+    .modal-content {
+      width: 100%;
+    }
+    .close {
+      position: absolute;
+      top: 5%;
+      right: 10%;
+      color: red;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+      background-color: black;
+      line-height: 80%;
+    }
   }
