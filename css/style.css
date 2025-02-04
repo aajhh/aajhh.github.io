@@ -791,7 +791,7 @@ ul {
       font-size: 16px;
     }
     #headerlogo {
-      width: 100px;
+      width: 500px;
     }
     .header {
       top: -1px;
@@ -873,13 +873,13 @@ ul {
       -moz-column-count: 3;
        column-count: 3;
        width: 100%;       
-   }  
-   .chimages {       
-    -webkit-column-count: 3;      
-    -moz-column-count: 3;
-     column-count: 3;
-     width: 100%;       
-   }  
+    }  
+    .chimages {       
+      -webkit-column-count: 3;      
+      -moz-column-count: 3;
+      column-count: 3;
+      width: 100%;       
+    }  
     .content {
       width: 95%;
     }
@@ -900,6 +900,10 @@ ul {
     }
     .largelogo {
       width: 90%;
+    }
+    .submitbutton {
+      width: auto;
+      margin: auto;
     }
   }
 
