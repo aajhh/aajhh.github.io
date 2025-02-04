@@ -758,6 +758,7 @@ ul {
     }
     .filtergallery .gallery-item{
       width: 50%;
+      padding-left: 0px;
     }
   }
 
