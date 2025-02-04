@@ -731,7 +731,17 @@ ul {
     .footer p {
       font-size: 10px;
     }
-    .mySlides {
+    .slideshow-container{
       width: 90%;
+    }
+    .mySlides {
+      width: 100%;
+    }
+    .dropdown-content a{
+      font-size: 12px;
+    }
+    .playbutton {
+      font-size: 16px;
+      display: inline; 
     }
   }
