@@ -700,7 +700,7 @@ ul {
     visibility: hidden;
   }
 
-  .artjumpto, .gamejumpto h2{
+  .artjumpto h2, .gamejumpto h2{
     font-size: 20px;
   }
 
@@ -883,7 +883,7 @@ ul {
     .content {
       width: 95%;
     }
-    .artjumpto, .gamejumpto h2 {
+    .artjumpto h2, .gamejumpto h2 {
       font-size: 12px !important;
     }
     .gameheader {
