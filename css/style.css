@@ -753,28 +753,10 @@ ul {
       width: 48%;
       padding:1%;
     }
-    .flip-card {
-      width: 50%;
-      height: auto;
-    }
-    .flip-card-inner {
-      position: relative;
-      width: 100%;
-      height: 100%;
-    }
-    .flip-card-front, .flip-card-back {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-    }
-    .flip-card-back {
-      width: 50%;
-      height: auto;
-    }
-    .gallery .gallery-filter .filter-item{
+    .filtergallery .gallery-filters .filter-item{
       margin-bottom: 10px;
     }
-    .gallery .gallery-item{
+    .filtergallery .gallery-item{
       width: 50%;
     }
   }
