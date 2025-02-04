@@ -715,11 +715,11 @@ ul {
       position: absolute;
       top: 5%;
       right: 10%;
-      color: red;
+      color: #cc3333;
       font-size: 40px;
       font-weight: bold;
       transition: 0.3s;
-      background-color: black;
+      background-color: #0B0A0D;
       line-height: 80%;
     }
     h1 {
