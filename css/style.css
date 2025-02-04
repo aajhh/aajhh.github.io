@@ -779,9 +779,9 @@ ul {
     opacity: 1;
   }
 
-  .siteicon {
+  .webimg {
     border-style: solid;
-    border-width: 5px;
+    border-width: 2px;
     border-color:#cc3333;
     border-radius: 10%;
   }
