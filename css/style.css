@@ -771,6 +771,14 @@ ul {
     background-color:#333399 !important;
   }
 
+  .siteicon:hover .webimage {
+    opacity: 0.3;
+  }
+  
+  .siteicon:hover .webhover {
+    opacity: 1;
+  }
+
   @media screen and (max-width: 800px) {
     .headernav h2 {
       font-size: 16px;
