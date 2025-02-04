@@ -755,10 +755,10 @@ ul {
     }
     .filtergallery .gallery-filters .filter-item{
       margin-bottom: 10px;
+      font-size: 12px !important;
     }
     .filtergallery .gallery-item{
       width: 50%;
-      margin: auto;
     }
     .artcaption {
       font-size: 12px !important; 
@@ -786,6 +786,9 @@ ul {
    }  
     .content {
       width: 90%;
+    }
+    .artjumpto {
+      font-size: 12px !important;
     }
   }
 
