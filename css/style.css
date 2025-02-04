@@ -84,7 +84,7 @@
     width: 50%;
   }
 
-  .content .contentcc {
+  .content, .contentcc {
     text-align: center;
     color:#ffffff;
     margin: auto;
