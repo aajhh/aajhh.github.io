@@ -636,7 +636,7 @@ hr {
 
 .playbutton {
   background-color:#0B0A0D !important;
-  color:#333399 !important;
+  color:#cc3333 !important;
   font-family: "hwt-arabesque", sans-serif !important;
   font-weight: 400;
   font-style: normal;
@@ -705,13 +705,13 @@ ul {
   }
 
   form {
-    width: 75%;
+    width: 100%;
     margin: auto;
   }
 
   .submitbutton {
     background-color:#0B0A0D !important;
-    color:#333399 !important;
+    color:#cc3333 !important;
     font-family: "hwt-arabesque", sans-serif !important;
     font-weight: 400;
     font-style: normal;
@@ -724,6 +724,7 @@ ul {
     margin: auto;
     display: inline-block;
     width: 15%;
+    cursor: pointer;
   }
 
   .submitbutton:hover  {
@@ -738,18 +739,18 @@ ul {
   }
 
  form input[type=text] {
-    width: 25%;
+    width: 75%;
     margin: auto;
   }
 
   form input[type=email] {
-    width: 25%;
+    width: 75%;
     margin: auto;
   }
 
   form textarea {
-    height: 100px;
-    width: 25%;
+    height: 200px;
+    width: 75%;
     margin: auto;
   }
 
