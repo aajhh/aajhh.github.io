@@ -768,8 +768,8 @@ ul {
       height: 100%;
     }
     .flip-card-back {
-      width:300px;
-      height:300px;
+      width: 50%;
+      height: auto;
     }
     .gallery .gallery-filter .filter-item{
       margin-bottom: 10px;
