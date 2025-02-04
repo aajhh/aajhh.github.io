@@ -761,7 +761,7 @@ ul {
       padding: 0px;
     }
     .artcaption {
-      font-size: 12px;
+      font-size: 12px !important; 
     }
     .aaimages {    
       line-height: 0;     
@@ -773,5 +773,8 @@ ul {
         column-gap: 0;
         width: 100%;    
     }  
+    .content {
+      width: 90%;
+    }
   }
 
