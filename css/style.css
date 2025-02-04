@@ -696,8 +696,8 @@ ul {
     .headernav h2 {
       font-size: 16px;
     }
-    .headerlogo {
-      height: 50px;
+    #headerlogo {
+      width: 100%;
     }
     .header {
       top: -1px;
