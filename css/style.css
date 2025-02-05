@@ -689,7 +689,7 @@ ul {
   }
 
   .gameprevimggallery img:hover {
-    border: 2px solid #cc3333;
+    border-color: #cc3333;
   }
 
   .notice {
