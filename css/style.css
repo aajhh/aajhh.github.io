@@ -682,9 +682,10 @@ ul {
   
   .gameprevimggallery img {
     float: left;
-    border: 2px solid #333399;
+    border: 5px solid #333399;
     width: 45%;
     margin: 1.66%;
+    border-radius: 25px;
   }
 
   .gameprevimggallery img:hover {
