@@ -240,6 +240,14 @@ hr {
     font-size: 20px;
   }
 
+  .flip-card-back h2{
+    font-size: 16px;
+  }
+
+  .flip-card-back p{
+    font-size: 12px;
+  }
+
   .container {
     overflow: hidden;
     width: 100%;
@@ -253,8 +261,7 @@ hr {
   .filterDiv {
     float: left;
     color: #ffffff;
-    width: 100px;
-    line-height: 100px;
+    width: auto;
     text-align: center;
     margin: 2px;
     display: none; /* Hidden by default */
