@@ -38,24 +38,45 @@
               <button onclick="topFunction()" id="toTop" title="Go to top">⮝</button> 
                  <!-- FILTERABLE GALLERY 
                   IMAGES FROM: https://www.pikawiz.com/card -->
-                 <div class="filtergallery">
-                    <div class="filtergallerycontainer">
-                        <div class="filterrow">
-                            <div class="gallery-filters">
-                                <h2 style="font-size:20px;">FILTER BY:</h2>
-                                <span class="filter-item active" data-filter="all">ALL</span>
-                                <h2 style="display:inline; font-size:20px; color:#cc3333;"> | </h2>
-                                <span class="filter-item" data-filter="cas">BASE SET</span>
-                                <h2 style="display:inline; font-size:20px; color:#cc3333;"> | </h2>
-                                <span class="filter-item" data-filter="preset">FOSSIL</span>
-                                <h2 style="display:inline; font-size:20px; color:#cc3333;"> | </h2>
-                                <span class="filter-item" data-filter="hair">FOR TRADE</span>
-                            </div>
-                        </div>
-                        <br>
-                        <hr>
-                        <br>
-                        <div class="filterrow">
+                  <div class="options">
+                    <label><input type="radio" name="operation" value="union" id="op-union" checked> Union</label>
+                    <label><input type="radio" name="operation" value="intersection" id="op-inter"> Intersection</label>
+                  </div>
+                  
+                  <div class="categories">
+                    <span class="category">
+                      <input type="checkbox" value="cars" id="cat-cars">
+                      <label for="cat-cars">Cars</label>
+                    </span>
+                    <span class="category">
+                      <input type="checkbox" value="animals" id="cat-animals">
+                      <label for="cat-animals">Animals</label>
+                    </span>
+                    <span class="category">
+                      <input type="checkbox" value="fruits" id="cat-fruits">
+                      <label for="cat-fruits">Fruits</label>
+                    </span>
+                    <span class="category">
+                      <input type="checkbox" value="colors" id="cat-colors">
+                      <label for="cat-colors">Colors</label>
+                    </span>
+                  </div>
+                  
+                  <div class="container">
+                    <div class="filterDiv cars">BMW</div>
+                    <div class="filterDiv colors fruits">Orange</div>
+                    <div class="filterDiv cars">Volvo</div>
+                    <div class="filterDiv colors">Red</div>
+                    <div class="filterDiv cars animals">Mustang</div>
+                    <div class="filterDiv colors">Blue</div>
+                    <div class="filterDiv animals">Cat</div>
+                    <div class="filterDiv animals">Dog</div>
+                    <div class="filterDiv fruits">Melon</div>
+                    <div class="filterDiv fruits animals">Kiwi</div>
+                    <div class="filterDiv fruits">Banana</div>
+                    <div class="filterDiv fruits">Lemon</div>
+                    <div class="filterDiv animals">Cow</div>
+                  </div>
 
                             <div class="gallery-item base trade">
                                 <div class="flip-card">
@@ -69,11 +90,8 @@
                                         <p>We love that guy</p>
                                       </div>
                                     </div>
-                                  </div>
-
-                        </div>   
-                    </div>
-                </div>              
+                                  </div> 
+                                </div>              
 
             <!-- END OF CONTENT-->
             </div>
@@ -98,6 +116,6 @@
              </div>
         <!--SCRIPTS-->
         <script src="/js/headerscroll.js"></script> 
-        <script src="/js/galleryfilter.js"></script>
+        <script src="/js/multifilter.js"></script>
     </body>
 </html> 
