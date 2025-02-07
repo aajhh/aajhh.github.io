@@ -11,7 +11,7 @@ function filter() {
   var i, j;
 
   // Choose an operation
-  var operation = document.getElementById("op-union").checked ? "union" : "intersection";
+  // var operation = document.getElementById("op-union").checked ? "union" : "intersection";
 
   // Get the selected categories
   var checkboxes = document.querySelectorAll(".categories input");
@@ -31,15 +31,6 @@ function filter() {
     item = items[i];
     if(categories.length == 0) {
       show = true;
-    } else if(operation == "union") {
-      // Union: Only one of the categories needs to exist
-      show = false;
-      for(j = 0; j < categories.length; j++) {
-        if(item.classList.contains(categories[j])) {
-          show = true;
-          break;
-        }
-      }
     } else {
       // Intersection: All of the categories must apply
       show = true;
