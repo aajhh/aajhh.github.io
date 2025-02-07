@@ -36,13 +36,19 @@
             <!-- PAGE CONTENT-->
             <div class="content">
               <button onclick="topFunction()" id="toTop" title="Go to top">⮝</button> 
-                 <!-- FILTERABLE GALLERY 
+                 <!-- SORTABLE GALLERY 
                   IMAGES FROM: https://www.pikawiz.com/card -->
-                  
                   <div class="categories">
                     <span class="category">
-                      <input type="checkbox" value="cars" id="cat-cars">
-                      <label for="cat-cars">Cars</label>
+
+                      <div class="dropdown">
+                        <h2 class="dropbtn2">SET</h2>
+                          <div class="dropdown-content">
+                            <input type="checkbox" value="base" id="cat-cars">
+                            <label for="cat-cars">SET</label>
+                          </div>
+                      </div>
+
                     </span>
                     <span class="category">
                       <input type="checkbox" value="animals" id="cat-animals">
@@ -59,34 +65,49 @@
                   </div>
                   
                   <div class="container">
-                    <div class="filterDiv cars">BMW</div>
+                    <div class="filterDiv base rare ">
+                      <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="https://www.pikawiz.com/images/baseset/1.png" alt="Avatar" style="width:330px;height:460px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>John Doe</h1> 
+                            <p>Architect & Engineer</p> 
+                            <p>We love that guy</p>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+
                     <div class="filterDiv colors fruits">Orange</div>
+
                     <div class="filterDiv cars">Volvo</div>
+
                     <div class="filterDiv colors">Red</div>
+                  
                     <div class="filterDiv cars animals">Mustang</div>
+
                     <div class="filterDiv colors">Blue</div>
+
                     <div class="filterDiv animals">Cat</div>
+
                     <div class="filterDiv animals">Dog</div>
+
                     <div class="filterDiv fruits">Melon</div>
+
                     <div class="filterDiv fruits animals">Kiwi</div>
+
                     <div class="filterDiv fruits">Banana</div>
+
                     <div class="filterDiv fruits">Lemon</div>
+
                     <div class="filterDiv animals">Cow</div>
+
                   </div>
 
                             <div class="gallery-item base trade">
-                                <div class="flip-card">
-                                    <div class="flip-card-inner">
-                                      <div class="flip-card-front">
-                                        <img src="https://www.pikawiz.com/images/baseset/1.png" alt="Avatar" style="width:330px;height:460px;">
-                                      </div>
-                                      <div class="flip-card-back">
-                                        <h1>John Doe</h1> 
-                                        <p>Architect & Engineer</p> 
-                                        <p>We love that guy</p>
-                                      </div>
-                                    </div>
-                                  </div> 
+                                
                                 </div>              
 
             <!-- END OF CONTENT-->
