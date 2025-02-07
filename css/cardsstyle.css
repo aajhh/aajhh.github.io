@@ -197,8 +197,8 @@ hr {
 
 .flip-card {
     background-color: transparent;
-    width: 330px;
-    height: 460px;
+    width: 165px;
+    height: 230px;
     perspective: 1000px;
   }
   
