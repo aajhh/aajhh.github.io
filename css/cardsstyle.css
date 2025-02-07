@@ -125,10 +125,6 @@ a:active {
   display: block;
 }
 
-.dropdown:hover .dropbtn {
-  color: #333399;
-}
-
 .dropdown:hover .dropbtn2 {
   color: #cc3333;
   cursor: default;
@@ -241,6 +237,12 @@ hr {
 
   .container {
     overflow: hidden;
+    width: 100%;
+    display: block;
+    min-height: 100vh;
+    background-color: #0B0A0D;
+    max-width: 100%;
+    margin:auto;
   }
   
   .filterDiv {
