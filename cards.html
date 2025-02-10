@@ -50,61 +50,67 @@
                  <!-- SORTABLE GALLERY 
                   IMAGES FROM: https://www.pikawiz.com/card -->
                   <div class="categories">
-                  <table class="categorytab">
-                    
-                    <td class="category dropdown">
-                        <h2 class="dropbtn2">SET</h2>
-                          <div class="dropdown-content">
-                            <input type="radio" value="filterDiv" id="cat-all" name="set" checked="checked">
-                            <label for="cat-all">ALL</label><br>
-                            <input type="radio" value="promo" id="cat-promo" name="set">
-                            <label for="cat-promo">PROMO</label><br>
-                            <input type="radio" value="base" id="cat-base" name="set">
-                            <label for="cat-base">BASE SET</label><br>
-                            <input type="radio" value="jungle" id="cat-jungle" name="set">
-                            <label for="cat-jungle">JUNGLE</label><br>
-                            <input type="radio" value="fossil" id="cat-fossil" name="set">
-                            <label for="cat-fossil">FOSSIL</label><br>
-                            <input type="radio" value="base2" id="cat-base2" name="set">
-                            <label for="cat-base2">BASE 2</label><br>
-                            <input type="radio" value="rocket" id="cat-rocket" name="set">
-                            <label for="cat-rocket">TEAM ROCKET</label><br>
-                            <input type="radio" value="md" id="cat-md" name="set">
-                            <label for="cat-md">MAJESTIC DAWN</label><br>
-                            <input type="radio" value="hgss" id="cat-hgss" name="set">
-                            <label for="cat-hgss">HEARTGOLD & SOULSILVER</label><br>
-                            <input type="radio" value="ce" id="cat-ce" name="set">
-                            <label for="cat-ce">COSMIC ECLIPSE</label><br>
-                            <input type="radio" value="swsh" id="cat-swsh" name="set">
-                            <label for="cat-swsh">SWORD & SHIELD</label><br>
-                            <input type="radio" value="rc" id="cat-rc" name="set">
-                            <label for="cat-rc">REBEL CLASH</label><br>
-                            <input type="radio" value="da" id="cat-da" name="set">
-                            <label for="cat-da">DARKNESS ABLAZE</label><br>
-                          </div>
-                        </td>
-                    <td class="category dropdown">
-                        <h2 class="dropbtn2">RARITY</h2>
-                          <div class="dropdown-content">
-                            <input type="radio" value="filterDiv" id="cat-allrare" name="rarity" checked="checked">
-                            <label for="cat-allrare">ALL</label><br>
-                            <input type="radio" value="common" id="cat-common" name="rarity">
-                            <label for="cat-common">COMMON</label><br>
-                            <input type="radio" value="uncommon" id="cat-uncommon" name="rarity">
-                            <label for="cat-uncommon">UNCOMMON</label><br>
-                            <input type="radio" value="rare" id="cat-rare" name="rarity">
-                            <label for="cat-rare">RARE</label><br>
-                            <input type="radio" value="rareplus" id="cat-rareplus" name="rarity">
-                            <label for="cat-rareplus">RARE+</label>
-                          </div>
-                        </td>
-                    <td class="category">
-                      <input type="checkbox" value="trade" id="cat-trade">
-                      <label for="cat-trade">FOR TRADE</label>
-                    </td>
-
-                  </table>
-                  </div>
+                    <button type="button" class="collapsible">Filter Cards</button>
+                    <div class="dropcontent">
+                      <div class="category">
+                      <h2 style="display:inline">SET:</h2>
+                      <input type="radio" value="filterDiv" id="cat-all" name="set" checked="checked">
+                      <label for="cat-all">ALL</label>
+                      <table class="set">
+                        <tr>
+                          <td><input type="radio" value="promo" id="cat-promo" name="set">
+                            <label for="cat-promo">PROMO</label></td>
+                          <td><input type="radio" value="base" id="cat-base" name="set">
+                            <label for="cat-base">BASE SET</label></td>
+                          <td><input type="radio" value="jungle" id="cat-jungle" name="set">
+                            <label for="cat-jungle">JUNGLE</label></td>
+                        </tr>
+                        <tr>
+                          <td><input type="radio" value="fossil" id="cat-fossil" name="set">
+                            <label for="cat-fossil">FOSSIL</label></td>
+                          <td><input type="radio" value="base2" id="cat-base2" name="set">
+                            <label for="cat-base2">BASE 2</label></td>
+                          <td><input type="radio" value="rocket" id="cat-rocket" name="set">
+                            <label for="cat-rocket">TEAM ROCKET</label></td>
+                        </tr>
+                        <tr>
+                          <td><input type="radio" value="md" id="cat-md" name="set">
+                            <label for="cat-md">MAJESTIC DAWN</label></td>
+                          <td><input type="radio" value="hgss" id="cat-hgss" name="set">
+                            <label for="cat-hgss">HEARTGOLD & SOULSILVER</label></td>
+                          <td><input type="radio" value="ce" id="cat-ce" name="set">
+                            <label for="cat-ce">COSMIC ECLIPSE</label></td>
+                        </tr>
+                        <tr>
+                          <td><input type="radio" value="swsh" id="cat-swsh" name="set">
+                            <label for="cat-swsh">SWORD & SHIELD</label></td>
+                          <td><input type="radio" value="rc" id="cat-rc" name="set">
+                            <label for="cat-rc">REBEL CLASH</label></td>
+                          <td><input type="radio" value="da" id="cat-da" name="set">
+                            <label for="cat-da">DARKNESS ABLAZE</label></td>
+                        </tr>
+                      </table></div>
+                      <div class="category">
+                      <h2 style="display:inline">RARITY:</h2>
+                      <input type="radio" value="filterDiv" id="cat-allrare" name="rarity" checked="checked">
+                      <label for="cat-allrare">ALL</label>
+                      <table class="rarity">
+                        <tr>
+                          <td><input type="radio" value="common" id="cat-common" name="rarity">
+                            <label for="cat-common">COMMON</label></td>
+                          <td><input type="radio" value="uncommon" id="cat-uncommon" name="rarity">
+                            <label for="cat-uncommon">UNCOMMON</label></td>
+                          <td><input type="radio" value="rare" id="cat-rare" name="rarity">
+                            <label for="cat-rare">RARE</label></td>
+                          <td><input type="radio" value="rareplus" id="cat-rareplus" name="rarity">
+                            <label for="cat-rareplus">RARE+</label></td>
+                        </tr>
+                      </table></div>
+                      <div class="category">
+                        <input type="checkbox" value="trade" id="cat-trade">
+                        <label for="cat-trade">FOR TRADE</label>
+                      </div>
+                    </div>
                   
                   <div class="container">
                     <div class="filterDiv promo ">
@@ -5099,5 +5105,6 @@
         <!--SCRIPTS-->
         <script src="/js/headerscrollpkmn.js"></script> 
         <script src="/js/multifilter.js"></script>
+        <script src="/js/collapsible.js"></script>
     </body>
 </html> 
