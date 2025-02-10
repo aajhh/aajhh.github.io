@@ -357,7 +357,7 @@ hr {
   background-color: #0B0A0D;
 } 
 
-.rarity .set {
+.rarity, .set {
   width: 100%;
   text-align: center;
   table-layout: fixed;
@@ -368,7 +368,7 @@ hr {
   text-align: left !important;
 }
 
-.set .rarity td{
+.set td, .rarity td{
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   text-align: left !important;
 }
