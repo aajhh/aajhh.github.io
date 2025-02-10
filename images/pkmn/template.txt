@@ -2,13 +2,14 @@
                       <div class="flip-card">
                         <div class="flip-card-inner">
                           <div class="flip-card-front">
-                            <img src="https://www.pikawiz.com/images/baseset/20.png" style="width:165px;height:230px;">
+                            <img src="https://www.pikawiz.com/images/baseset/20.png" style="width:165px;height:230px;" loading="lazy">
                           </div>
                           <div class="flip-card-back">
                             <h1>NAME</h1> 
                             <h2>SET</h2>
                             <h2>NUM/NUM</h2> 
                             <p>RARITY</p>
+			    <p>CARDTYPE</p>
                             <p>Trade: </p>
                           </div>
                         </div>
