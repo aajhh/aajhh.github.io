@@ -295,6 +295,7 @@ hr {
   .categorytab{
     width:80%;
     margin:auto;
+    table-layout: fixed;
   }
   
   .container {
