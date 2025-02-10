@@ -45,7 +45,7 @@ p {
 }
 
 #myHeader {
-  border-bottom:#cc3333;
+  border-bottom:#385ba8;
   border-bottom-style: none;
   border-bottom-width: 5px;
 }
@@ -67,12 +67,12 @@ a:visited {
 }
 
 a:hover {
-  color: #333399;
+  color: #ffcc00;
   text-decoration: none; 
 }
 
 a:active {
-  color: #cc3333;
+  color: #385ba8;
   text-decoration: none; 
 } 
 
@@ -90,7 +90,7 @@ a:active {
 
 .divider{
   font-size:larger;
-  color:#cc3333;
+  color:#385ba8;
 }
 
 .dropbtn {
@@ -118,7 +118,7 @@ a:active {
 }
 
 .dropdown-content a:hover {
-  color: #333399;
+  color: #ffcc00;
 }
 
 .dropdown:hover .dropdown-content {
@@ -126,14 +126,14 @@ a:active {
 }
 
 .dropdown:hover .dropbtn2 {
-  color: #cc3333;
+  color: #385ba8;
   cursor: default;
 }
 
 div.footer {
   color:#ffffff;
   background-color:#0B0A0D;
-  border-top:#cc3333;
+  border-top:#385ba8;
   border-top-style:solid;
   height: 5vh;
   width: 100%;
@@ -174,7 +174,7 @@ p.footer {
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: #0B0A0D; /* Set a background color */
-  color: #cc3333; /* Text color */
+  color: #ffcc00; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
@@ -182,12 +182,12 @@ p.footer {
 }
 
 #toTop:hover {
-  color: #333399; /* Add a dark-grey background on hover */
+  color: #385ba8; /* Add a dark-grey background on hover */
 }
 
 hr {
   width: 85%;
-  color: #cc3333;
+  color: #385ba8;
   border-top-style: dotted;
   border-top-width: 12px;
   border-left-style: none;
