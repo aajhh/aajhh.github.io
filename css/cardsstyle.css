@@ -292,6 +292,16 @@ hr {
     color: white;
   }
 
+  .categorytab{
+    width:80%;
+    margin:auto;
+  }
+  
+  .container {
+    width: 100%;
+    margin:auto;
+  }
+
   @media screen and (max-width: 800px) {
     .headernav h2 {
       font-size: 16px;
