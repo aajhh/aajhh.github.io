@@ -327,13 +327,8 @@ hr {
     /* Not removed via appearance */
     margin: 0;
   }
-
-  input[type="radio"] ~ label {
-    color:#ffffff;
-    background-color:transparent;
-  }
-
-  input[type="radio"]:checked ~ label {
+  
+  input[type="radio"]:checked+label {
     color:#0B0A0D;
     background-color:#2980b9;
   }
