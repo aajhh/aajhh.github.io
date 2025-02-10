@@ -303,6 +303,38 @@ hr {
     margin:auto;
   }
 
+  ul {
+    text-align: center;
+    list-style-position: inside;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    padding-left: 0;
+  }
+
+  .dropdown-content label {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  }
+
+  input[type="radio"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+    /* For iOS < 15 to remove gradient background */
+    background-color: #fff;
+    /* Not removed via appearance */
+    margin: 0;
+  }
+
+  input[type="radio"]:checked ~ label {
+    color:#0B0A0D;
+    background-color:#2980b9;
+  }
+  
+
   @media screen and (max-width: 800px) {
     .headernav h2 {
       font-size: 16px;
