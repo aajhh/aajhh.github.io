@@ -1,6 +1,6 @@
 let mybutton = document.getElementById("toTop");
-var initialSrc = "/images/general/home button.png";
-var scrollSrc = "/images/general/header logo.png";
+var initialSrc = "/images/pkmn/home pkmn button.png";
+var scrollSrc = "/images/general/header pkmn logo.png";
 
 window.onscroll = function() {scrollFunction()};
 
