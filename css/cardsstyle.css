@@ -355,6 +355,7 @@ hr {
   display: none;
   overflow: hidden;
   background-color: #0B0A0D;
+  text-align: left;
 } 
 
 .rarity, .set {
@@ -371,6 +372,10 @@ hr {
 .set td, .rarity td{
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   text-align: left !important;
+}
+
+label {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
   @media screen and (max-width: 800px) {
