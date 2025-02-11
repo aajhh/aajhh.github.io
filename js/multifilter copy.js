@@ -19,6 +19,8 @@ function filter() {
   }
 
   // Apply the filter
+  var input = document.getElementById("Search");
+  var filters = input.value.toLowerCase();
   var items = document.querySelectorAll(".filterDiv");
   var item, show;
   for(i = 0; i < items.length; i++) {
@@ -29,7 +31,7 @@ function filter() {
       // Intersection: All of the categories must apply
       show = true;
       for(j = 0; j < categories.length; j++) {
-        if(!item.classList.contains(categories[j])) {
+        if(!item.classList.contains(categories[j]) || nodes[i].innerText.toLowerCase().includes(filter)) {
           show = false;
           break;
         }
@@ -44,20 +46,5 @@ function filter() {
   }
 }
 
-function myFunction() {
-  var input = document.getElementById("Search");
-  var filter = input.value.toLowerCase();
-  var nodes = document.getElementsByClassName('filterDiv');
-
- for (let i = 0; i < nodes.length; i++) {
-  if (nodes[i].innerText.toLowerCase().includes(filter)) {
-   nodes[i].style.display = "block";
-    } else {
-      nodes[i].style.display = "none";
-    }
-    }
-   }
-
-document.querySelectorAll(".categories input").onclick = clearsearch;
 
 
