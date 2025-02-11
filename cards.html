@@ -50,7 +50,8 @@
                  <!-- SORTABLE GALLERY 
                   IMAGES FROM: https://www.pikawiz.com/card -->
                   <div class="categories">
-                    <button type="button" class="collapsible">FILTER CARDS ▼ <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name"></button>
+                    <button type="button" class="collapsible">FILTER CARDS ▼ 
+                      <input type="text" id="Search" onkeyup="myFunction()" placeholder="Please enter a search term.." title="Type in a name"></button>
                     <div class="dropcontent">
                       <div class="category">
                       <h2 class="categorytitle">SET:     </h2>
@@ -8826,21 +8827,18 @@
         <script src="/js/collapsible.js"></script>
         <script>
           function myFunction() {
-              var input, filter, ul, li, a, i, txtValue;
-              input = document.getElementById("myInput");
-              filter = input.value.toUpperCase();
-              ul = document.getElementById("cards");
-              li = ul.getElementsByClass("filterDiv");
-              for (i = 0; i < li.length; i++) {
-                  a = li[i].getElementsByTagName("a")[0];
-                  txtValue = a.textContent || a.innerText;
-                  if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                      li[i].style.display = "";
-                  } else {
-                      li[i].style.display = "none";
-                  }
-              }
-          }
+           var input = document.getElementById("Search");
+           var filter = input.value.toLowerCase();
+           var nodes = document.getElementsByClassName('filterDiv');
+
+          for (let i = 0; i < nodes.length; i++) {
+           if (nodes[i].innerText.toLowerCase().includes(filter)) {
+            nodes[i].style.display = "block";
+             } else {
+               nodes[i].style.display = "none";
+             }
+             }
+            }
           </script>
     </body>
 </html> 
