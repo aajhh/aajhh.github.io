@@ -10,16 +10,20 @@ function myFunction() {
       nodes[i].style.display = "none";
     }
     }
-
+   }
 
 var checkboxes = document.querySelectorAll(".categories input");
 for(var i = 0; i < checkboxes.length; i++) {
-  checkboxes[i].addEventListener("change", filter);
+  checkboxes[i].addEventListener("change", filter, clearsearch);
 }
-var radios = document.getElementsByName("operation");
-for(var i = 0; i < radios.length; i++) {
-  radios[i].addEventListener("change", filter);
-}
+// var radios = document.getElementsByName("operation");
+// for(var i = 0; i < radios.length; i++) {
+//  radios[i].addEventListener("change", filter);
+// }
+clearsearch();
+  function clearsearch() {
+    document.getElementById('searchInput').value = "";
+  }
 filter();
 function filter() {
   var i, j;
@@ -39,7 +43,7 @@ function filter() {
   }
 
   // Apply the filter
-  var items = nodes;
+  var items = document.querySelectorAll(".filterDiv");
   var item, show;
   for(i = 0; i < items.length; i++) {
     item = items[i];
@@ -63,4 +67,4 @@ function filter() {
     }
   }
 }
-}
+
