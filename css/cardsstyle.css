@@ -245,14 +245,60 @@ hr {
     color: black;
   }
   
-  .promo, .jungle, .base2, .md, .ce, .rc, .vv, .cr .flip-card-back {
+  .flip-card-back {
     background-color: #385ba8;
     color: white;
     transform: rotateY(180deg);
     line-height: 0.7;
   }
 
-  .base, .fossil, .rocket, .hgss, .swsh, .da, .bs, .es .flip-card-back {
+  .promo .flip-card-back {
+    background-color: #385ba8;
+  }
+  .jungle .flip-card-back {
+    background-color: #385ba8;
+  }
+  .base2 .flip-card-back {
+    background-color: #385ba8;
+  }
+  .md .flip-card-back {
+    background-color: #385ba8;
+  }
+  .ce .flip-card-back {
+    background-color: #385ba8;
+  }
+  .rc .flip-card-back {
+    background-color: #385ba8;
+  }
+  .vv .flip-card-back {
+    background-color: #385ba8;
+  }
+  .cr .flip-card-back {
+    background-color: #385ba8;
+  }
+
+  .base .flip-card-back {
+    background-color: #17285e;
+  }
+  .fossil .flip-card-back {
+    background-color: #17285e;
+  }
+  .rocket .flip-card-back {
+    background-color: #17285e;
+  }
+  .hgss .flip-card-back {
+    background-color: #17285e;
+  }
+  .swsh .flip-card-back {
+    background-color: #17285e;
+  }
+  .da .flip-card-back {
+    background-color: #17285e;
+  }
+  .bs .flip-card-back {
+    background-color: #17285e;
+  }
+  .es .flip-card-back {
     background-color: #17285e;
   }
 
