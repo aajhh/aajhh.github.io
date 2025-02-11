@@ -47,7 +47,9 @@ function filter() {
 }
 
 function clearInputField() {
-  document.getElementById('myForm').value="";
+  document.getElementById('Search').value="";
+  document.getElementById('cat-all').value=checked;
+  document.getElementById('cat-allrare').value=checked;
 }
 
 
