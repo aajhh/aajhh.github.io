@@ -51,8 +51,9 @@
                   IMAGES FROM: https://www.pikawiz.com/card -->
                   <div class="categories">
                     <button type="button" class="collapsible">FILTER CARDS ▼ </button>
-                    <div class="dropcontent">
-                      <input type="text" id="Search" onkeyup="filter()" placeholder="Search by Name or Number..." title="Type in a name">
+                    <div class="dropcontent"><form id="myForm">
+                      <input type="text" id="Search" onkeyup="filter()" placeholder="Search by Name or Number..." title="Type in a name"></form>
+                      <button onclick="clearInputField()">Click here to clear</button>  
                       <div class="category">
                       <h2 class="categorytitle">SET:     </h2>
                       <input type="radio" value="filterDiv" id="cat-all" name="set" checked="checked">
@@ -8856,10 +8857,28 @@
                       </div>
                     </div> 
                   </div>
+                  <div class="filterDiv fs common">
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <img src="/images/pkmn/fs/002.png" style="width:165px;height:230px;" loading="lazy">
+                        </div>
+                        <div class="flip-card-back">
+                          <h1>Metapod</h1> 
+                          <h2>Fusion Strike</h2>
+                          <h2>2/264</h2> 
+                          <p>Common</p>
+                          <p>Standard</p>
+                          <p>Trade: ✘ No</p>
+                        </div>
+                      </div>
+                    </div> 
+                  </div>
                   
 
 
 
+                  </div>
                   </div>
                   <p>images from: https://www.pikawiz.com/</p>
             <!-- END OF CONTENT-->

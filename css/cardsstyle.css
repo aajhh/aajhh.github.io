@@ -163,7 +163,6 @@ p.footer {
 
 .footertext {
   float:left;
-  text-align: left;
 }
 
 .footerlinks {
@@ -274,6 +273,9 @@ hr {
     background-color: #385ba8;
   }
   .cr .flip-card-back {
+    background-color: #385ba8;
+  }
+  .fs .flip-card-back {
     background-color: #385ba8;
   }
 

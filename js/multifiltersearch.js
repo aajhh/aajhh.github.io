@@ -46,4 +46,8 @@ function filter() {
   }
 }
 
+function clearInputField() {
+  document.getElementById('myForm').reset();
+}
+
 
