@@ -195,6 +195,16 @@ hr {
   border-bottom-style: none;
 }
 
+.boxhr {
+  width: 75%;
+  color: #ffcc00;
+  border-top-style: solid;
+  border-top-width: 4px;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+}
+
 .flip-card {
     background-color: transparent;
     width: 165px;
