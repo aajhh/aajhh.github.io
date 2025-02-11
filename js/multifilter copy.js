@@ -31,20 +31,19 @@ function filter() {
       // Intersection: All of the categories must apply
       show = true;
       for(j = 0; j < categories.length; j++) {
-        if(!item.classList.contains(categories[j]) || nodes[i].innerText.toLowerCase().includes(filter)) {
+        if(!item.classList.contains(categories[j])) {
           show = false;
           break;
         }
       }
     }
 
-    if(show) {
+    if(show || nodes[i].innerText.toLowerCase().includes(filter) ) {
       item.classList.add("show");
     } else {
       item.classList.remove("show");
     }
   }
 }
-
 
 
