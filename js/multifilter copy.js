@@ -22,8 +22,9 @@ for(var i = 0; i < checkboxes.length; i++) {
 // }
 clearsearch();
   function clearsearch() {
-    document.getElementById('searchInput').value = "";
+    document.getElementById('Search').value = "";
   }
+
 filter();
 function filter() {
   var i, j;
