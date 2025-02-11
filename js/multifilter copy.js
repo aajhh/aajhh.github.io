@@ -10,7 +10,7 @@ function myFunction() {
       nodes[i].style.display = "none";
     }
     }
-   }
+
 
 var checkboxes = document.querySelectorAll(".categories input");
 for(var i = 0; i < checkboxes.length; i++) {
@@ -39,7 +39,7 @@ function filter() {
   }
 
   // Apply the filter
-  var items = document.querySelectorAll(".filterDiv");
+  var items = nodes;
   var item, show;
   for(i = 0; i < items.length; i++) {
     item = items[i];
@@ -63,4 +63,4 @@ function filter() {
     }
   }
 }
-
+}
