@@ -38,7 +38,7 @@ function filter() {
       }
     }
 
-    if(show || items[i].innerText.toLowerCase().includes(filters) ) {
+    if(show && items[i].innerText.toLowerCase().includes(filters) ) {
       item.classList.add("show");
     } else {
       item.classList.remove("show");
