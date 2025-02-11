@@ -351,11 +351,14 @@ hr {
 
 /* Style the collapsible content. Note: hidden by default */
 .dropcontent {
-  padding: 0 18px;
+  padding: 10px 18px;
   display: none;
   overflow: hidden;
   background-color: #0B0A0D;
   text-align: left;
+  border-style: solid;
+  border-width: 4px;
+  border-color:#ffcc00;
 } 
 
 .rarity, .set {
