@@ -520,9 +520,9 @@ input[type=text] {
       margin: auto;
     }
     .dropdown-content label{
-      font-size: 10px;
+      font-size: 8px !important;
     }
     input[type="radio"]{
-      margin-left: -5px;
+      margin-left: -5px !important;
     }
   }
