@@ -47,7 +47,7 @@ function filter() {
 }
 
 function clearInputField() {
-  document.getElementById('myForm').reset();
+  document.getElementById('myForm').value="";
 }
 
 
