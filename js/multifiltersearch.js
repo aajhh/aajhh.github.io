@@ -1,3 +1,7 @@
+function clearInputField() {
+  document.getElementById('Search').value="";
+}
+
 var checkboxes = document.querySelectorAll(".categories input");
 for(var i = 0; i < checkboxes.length; i++) {
   checkboxes[i].addEventListener("change", filter);
@@ -46,10 +50,6 @@ function filter() {
   }
 }
 
-function clearInputField() {
-  document.getElementById('Search').value="";
-  document.getElementById('cat-all').value=checked;
-  document.getElementById('cat-allrare').value=checked;
-}
+
 
 

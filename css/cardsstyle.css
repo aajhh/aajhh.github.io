@@ -519,4 +519,7 @@ input[type=text] {
       width: auto;
       margin: auto;
     }
+    .dropdown-content label{
+      font-size: 10px;
+    }
   }
