@@ -245,11 +245,15 @@ hr {
     color: black;
   }
   
-  .flip-card-back {
-    background-color: #2980b9;
+  .promo, .jungle, .base2, .md, .ce, .rc, .vv, .cr .flip-card-back {
+    background-color: #385ba8;
     color: white;
     transform: rotateY(180deg);
     line-height: 0.7;
+  }
+
+  .base, .fossil, .rocket, .hgss, .swsh, .da, .bs, .es .flip-card-back {
+    background-color: #17285e;
   }
 
   .flip-card-back h1{
