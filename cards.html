@@ -53,7 +53,7 @@
                     <button type="button" class="collapsible">FILTER CARDS ▼ </button>
                     <div class="dropcontent">
                       <input type="text" id="Search" onkeyup="filter()" placeholder="Search by Name or Number..." title="Type in a name">
-                      <button onclick="clearInputField()">CLEAR SEARCH</button>
+                      <button onclick="clearInputField(); filter()">CLEAR SEARCH</button>
                       <div class="category">
                       <h2 class="categorytitle">SET:     </h2>
                       <input type="radio" value="filterDiv" id="cat-all" name="set" checked="checked">
