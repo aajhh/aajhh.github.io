@@ -163,6 +163,7 @@ p.footer {
 
 .footertext {
   float:left;
+  text-align: left;
 }
 
 .footerlinks {
