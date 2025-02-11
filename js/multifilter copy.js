@@ -1,38 +1,11 @@
-function myFunction() {
-  var input = document.getElementById("Search");
-  var filter = input.value.toLowerCase();
-  var nodes = document.getElementsByClassName('filterDiv');
-
- for (let i = 0; i < nodes.length; i++) {
-  if (nodes[i].innerText.toLowerCase().includes(filter)) {
-   nodes[i].style.display = "block";
-    } else {
-      nodes[i].style.display = "none";
-    }
-    }
-   }
-
-document.querySelectorAll(".categories input").onclick = clearsearch;
-
 var checkboxes = document.querySelectorAll(".categories input");
 for(var i = 0; i < checkboxes.length; i++) {
   checkboxes[i].addEventListener("change", filter);
 }
-// var radios = document.getElementsByName("operation");
-// for(var i = 0; i < radios.length; i++) {
-//  radios[i].addEventListener("change", filter);
-// }
-clearsearch();
-  function clearsearch() {
-    document.getElementById("Search").value = "";
-  }
 
 filter();
 function filter() {
   var i, j;
-
-  // Choose an operation
-  // var operation = document.getElementById("op-union").checked ? "union" : "intersection";
 
   // Get the selected categories
   var checkboxes = document.querySelectorAll(".categories input");
@@ -70,4 +43,21 @@ function filter() {
     }
   }
 }
+
+function myFunction() {
+  var input = document.getElementById("Search");
+  var filter = input.value.toLowerCase();
+  var nodes = document.getElementsByClassName('filterDiv');
+
+ for (let i = 0; i < nodes.length; i++) {
+  if (nodes[i].innerText.toLowerCase().includes(filter)) {
+   nodes[i].style.display = "block";
+    } else {
+      nodes[i].style.display = "none";
+    }
+    }
+   }
+
+document.querySelectorAll(".categories input").onclick = clearsearch;
+
 
