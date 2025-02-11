@@ -12,9 +12,11 @@ function myFunction() {
     }
    }
 
+document.querySelectorAll(".categories input").onclick = clearsearch;
+
 var checkboxes = document.querySelectorAll(".categories input");
 for(var i = 0; i < checkboxes.length; i++) {
-  checkboxes[i].addEventListener("change", filter, clearsearch);
+  checkboxes[i].addEventListener("change", filter);
 }
 // var radios = document.getElementsByName("operation");
 // for(var i = 0; i < radios.length; i++) {
@@ -22,7 +24,7 @@ for(var i = 0; i < checkboxes.length; i++) {
 // }
 clearsearch();
   function clearsearch() {
-    document.getElementById('Search').value = "";
+    document.getElementById("Search").value = "";
   }
 
 filter();
