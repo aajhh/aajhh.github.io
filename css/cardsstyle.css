@@ -281,6 +281,18 @@ hr {
   .brilstar .flip-card-back {
     background-color: #385ba8;
   }
+  .lo .flip-card-back {
+    background-color: #385ba8;
+  }
+  .pev .flip-card-back {
+    background-color: #385ba8;
+  }
+  .pfate .flip-card-back {
+    background-color: #385ba8;
+  }
+  .sv4a .flip-card-back {
+    background-color: #385ba8;
+  }
 
   .base .flip-card-back {
     background-color: #17285e;
@@ -310,6 +322,15 @@ hr {
     background-color: #17285e;
   }
   .ar .flip-card-back {
+    background-color: #17285e;
+  }
+  .st .flip-card-back {
+    background-color: #17285e;
+  }
+  .pr .flip-card-back {
+    background-color: #17285e;
+  }
+  .ofo .flip-card-back {
     background-color: #17285e;
   }
 
