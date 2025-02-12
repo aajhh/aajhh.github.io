@@ -252,7 +252,7 @@ hr {
   }
 
   .promo .flip-card-back {
-    background-color: #385ba8;
+    background-color: #385ba8 !important;
   }
   .jungle .flip-card-back {
     background-color: #385ba8;
@@ -301,6 +301,9 @@ hr {
     background-color: #17285e;
   }
   .es .flip-card-back {
+    background-color: #17285e;
+  }
+  .celeb .flip-card-back {
     background-color: #17285e;
   }
 
@@ -370,14 +373,6 @@ hr {
     list-style-position: inside;
     font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
     padding-left: 0;
-  }
-
-  .dropdown-content label {
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    font-family: 'Raleway', Arial, Helvetica, sans-serif;
   }
 
   input[type="radio"] {
@@ -525,7 +520,10 @@ input[type=text] {
     input[type="radio"]{
       margin-left: -5px !important;
     }
-    .category {
-      overflow-x:auto;
+    .dropcontent {
+      overflow-x:auto !important;
+    }
+    .rarity, .set {
+      width: auto !important;
     }
   }
