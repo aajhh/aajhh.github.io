@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
     fileInput.addEventListener('change', async (event) => {
       const selectedFile = event.target.files[0];
       if (selectedFile) {
-        const fileURL = URL.createObjectURL(selectedFile);
+        const fileURL = /images/zines/house.pdf;
         loadPDF(fileURL);
       }
     });
