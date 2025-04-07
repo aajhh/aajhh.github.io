@@ -787,6 +787,41 @@ ul {
     border-radius: 25px;
   }
 
+  #pdf-container {
+    border: 1px solid #ccc;
+    overflow: auto;
+    width: 80%;
+    max-width: 800px;
+    height: 70vh;
+  }
+  
+  .button-group, #zoom-controls, #file-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .button-group button, #zoom-controls button, #file-controls button, #file-controls input[type="file"] {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-group button:hover, #zoom-controls button:hover, #file-controls button:hover, #file-controls input[type="file"]:hover {
+    background-color: #0056b3;
+  }
+  
+  #go-to-page-input, #go-to-page-btn {
+    margin-left: 5px;
+  }
+  
+
   @media screen and (max-width: 800px) {
     .headernav h2 {
       font-size: 16px;
