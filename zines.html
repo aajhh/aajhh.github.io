@@ -37,20 +37,7 @@
               <button onclick="topFunction()" id="toTop" title="Go to top">🠉</button> 
                      <h1>THE HOUSE I GREW OLD IN 2023</h1>
                      <h2 style="font-size:18px" class="artcaption">The accompanying art zine for THE HOUSE I GREW OLD IN body of work.</h2>
-                     <h1>Simple PDF Viewer</h1>
-                     <div id="pdf-container"></div>
-                     <div id="page-controls">
-                       <button id="prev-page">Previous</button>
-                       <span id="page-num">Page 1</span>
-                       <button id="next-page">Next</button>
-                       <input type="number" id="go-to-page-input" placeholder="Go to Page">
-                       <button id="go-to-page-btn">Go</button>
-                     </div>
-                     <div>
-                       <button id="zoom-out">Zoom Out</button>
-                       <button id="zoom-in">Zoom In</button>
-                     </div>
-                     <input type="file" id="file-input" accept=".pdf">
+                     <canvas id="pdf-canvas"></canvas>
             <!-- END OF CONTENT-->
             </div>
             <br>
@@ -76,6 +63,6 @@
         <script src="/js/headerscroll.js"></script> 
         <script src="/js/photoreel.js"></script> 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
-        <script src="viewer.js"></script>
+        <script src="viewer.js" type="module"></script>
     </body>
 </html> 
