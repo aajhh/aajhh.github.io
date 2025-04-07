@@ -37,7 +37,21 @@
               <button onclick="topFunction()" id="toTop" title="Go to top">🠉</button> 
                      <h1>THE HOUSE I GREW OLD IN 2023</h1>
                      <h2 style="font-size:18px" class="artcaption">The accompanying art zine for THE HOUSE I GREW OLD IN body of work.</h2>
-                     <canvas id="pdf-canvas"></canvas>
+                     <button id="show-pdf-button">Show PDF</button> 
+                     <div id="pdf-main-container">
+                        <div id="pdf-loader">Loading document ...</div>
+                        <div id="pdf-contents">
+                            <div id="pdf-meta">
+                                <div id="pdf-buttons">
+                                    <button id="pdf-prev">Previous</button>
+                                    <button id="pdf-next">Next</button>
+                                </div>
+                                <div id="page-count-container">Page <div id="pdf-current-page"></div> of <div id="pdf-total-pages"></div></div>
+                            </div>
+                            <canvas id="pdf-canvas" width="400"></canvas>
+                            <div id="page-loader">Loading page ...</div>
+                        </div>
+                    </div>
             <!-- END OF CONTENT-->
             </div>
             <br>
@@ -62,7 +76,7 @@
         <!--SCRIPTS-->
         <script src="/js/headerscroll.js"></script> 
         <script src="/js/photoreel.js"></script> 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.2.228/pdf.min.js"></script>
         <script src="viewer.js" type="module"></script>
     </body>
 </html> 
