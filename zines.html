@@ -37,19 +37,9 @@
               <button onclick="topFunction()" id="toTop" title="Go to top">🠉</button> 
                      <h1>THE HOUSE I GREW OLD IN 2023</h1>
                      <h2 style="font-size:18px" class="artcaption">The accompanying art zine for THE HOUSE I GREW OLD IN body of work.</h2>
-                     <button id="show-pdf-button">Show PDF</button> 
-                     <div id="pdf-main-container">
-                        <div id="pdf-loader">Loading document ...</div>
-                        <div id="pdf-contents">
-                            <div id="pdf-meta">
-                                <div id="pdf-buttons">
-                                    <button id="pdf-prev">Previous</button>
-                                    <button id="pdf-next">Next</button>
-                                </div>
-                                <div id="page-count-container">Page <div id="pdf-current-page"></div> of <div id="pdf-total-pages"></div></div>
-                            </div>
-                            <canvas id="pdf-canvas" width="400"></canvas>
-                            <div id="page-loader">Loading page ...</div>
+                     <button id="prev">Prev</button><button id="next">Next</button>
+                     <span id="npages">not yet</span><div>
+                        <canvas id="cnv"></canvas></div>
                         </div>
                     </div>
             <!-- END OF CONTENT-->
