@@ -1,5 +1,5 @@
 const canvas = document.getElementById('pdf-canvas');
-const pdfUrl = '/images/zines/house.pdf';
+const pdfUrl = 'house.pdf';
 
 pdfjsLib.GlobalWorkerOptions.workerSrc = './pdf.worker.mjs';
 
