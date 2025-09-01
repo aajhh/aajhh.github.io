@@ -465,7 +465,7 @@ hr {
 }
 
 .filtergallery .gallery-item{
-  width: calc(100% / 3);
+  width: calc(100% / 3.5);
   padding: 15px;
 
 }
