@@ -425,6 +425,7 @@ hr {
 .filterrow{
   display: flex;
   flex-wrap: wrap;
+  text-align:center;
 }
 
 .filtergallery{
