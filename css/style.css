@@ -422,6 +422,11 @@ hr {
   border-bottom-style: none;
 }
 
+.gallery-padder {
+  width: calc((100% / 4) /2);
+  padding: 15px;
+}
+
 .filterrow{
   display: flex;
   flex-wrap: wrap;
@@ -466,7 +471,7 @@ hr {
 }
 
 .filtergallery .gallery-item{
-  width: calc(100% / 3.5);
+  width: calc(100% / 4);
   padding: 15px;
   text-align:center;
 
