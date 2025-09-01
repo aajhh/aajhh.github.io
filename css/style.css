@@ -467,6 +467,7 @@ hr {
 .filtergallery .gallery-item{
   width: calc(100% / 3.5);
   padding: 15px;
+  text-align:center;
 
 }
 
